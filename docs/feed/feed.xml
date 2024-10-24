@@ -4,12 +4,50 @@
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/feed/feed.xml" rel="self"/>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/gis_im_weeknotes/"/>
-	<updated>2024-10-10T00:00:00Z</updated>
+	<updated>2024-10-17T00:00:00Z</updated>
 	<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/</id>
 	<author>
 		<name>BRC GIS &amp; IM</name>
 		<email>maps@redcross.org.uk</email>
 	</author>
+	
+	<entry>
+		<title>Generalisation, geocoding, web tools, team day</title>
+		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-17/"/>
+		<updated>2024-10-17T00:00:00Z</updated>
+		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-17/</id>
+		<content type="html">&lt;h2 id=&quot;data-generalisation-explainer&quot; tabindex=&quot;-1&quot;&gt;Data generalisation explainer &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-17/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We &lt;a href=&quot;https://medium.com/digital-and-innovation-at-british-red-cross/generally-speaking-1647906d8edb&quot;&gt;published an article&lt;/a&gt;
+explaining the different levels of generalisation in ONS geospatial products.
+It&#39;s come up a few times in recent conversations, making it a good canidadate
+for an article!&lt;/p&gt;
+&lt;h2 id=&quot;geocoding-with-bing-maps-api&quot; tabindex=&quot;-1&quot;&gt;Geocoding with Bing Maps API &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-17/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Following on from &lt;a href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-03/&quot;&gt;Maps in Sharepoint&lt;/a&gt;,
+we did some testing and documentaiton of geocoding addresses in a Sharepoint list
+using Power Automate and the Bing Maps API (soon to become Azure Maps API). Write-up
+to follow once we&#39;ve test and documented some other options.&lt;/p&gt;
+&lt;h2 id=&quot;triggering-python-notebooks-from-arcgis-webapps&quot; tabindex=&quot;-1&quot;&gt;Triggering Python notebooks from ArcGIS webapps &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-17/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We spent some time looking into using &lt;a href=&quot;https://www.esri.com/arcgis-blog/products/arcgis-online/announcements/notebooks-as-web-tools-in-arcgis-online/&quot;&gt;ESRI Web Tools to trigger a Python scripts&lt;/a&gt; in an ESRI Notebook to run custom analysis on the fly.
+We got a demo working, but found that while the Python script ran well from a
+hosted Jupyter Notebook, running it as a web tool from a webmap was significantly
+slower, possibly because it is initiating a notebook server before it can run the script.
+We&#39;ll look into why it&#39;s so much slower and if there&#39;s a way to optimise it.&lt;/p&gt;
+&lt;h2 id=&quot;python-user-group&quot; tabindex=&quot;-1&quot;&gt;Python User Group &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-17/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Our team hosts a monthly (more or lesS) BRC Python User Group for people working
+with Python across different teams. This month we had a great presentation on
+how a colleague from the Retail team is using Python for reporting and
+analysis.&lt;/p&gt;
+&lt;h2 id=&quot;planning-support-for-gis-programmes-with-international-partners&quot; tabindex=&quot;-1&quot;&gt;Planning support for GIS programmes with international partners &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-17/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We had a good discussion with a partner National Society on their plans for
+including GIS activities in their 2025 planning. We&#39;ll draw up some options to
+give them an idea of the sorts of activities we can support with, to inform their planning.&lt;/p&gt;
+&lt;h2 id=&quot;team-away-day&quot; tabindex=&quot;-1&quot;&gt;Team away day &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-17/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;And finally, we ended the week with a team day in London, meeting up with other
+teams that also sit under Transformation and Change. We spoke a bit about how
+the wider teams work together, some wider context around BRC strategy, and
+heard from colleagues in the London Refugee Support team about their work.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Sharing spatial data and apps, UK boundaries and generalisation, Canadian Red Cross presentation, and security maps</title>

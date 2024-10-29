@@ -22,7 +22,8 @@ draft: true/false
 ```
 3. Write the content beneath in Markdown
 4. Rebuild the HTML with `npx @11ty/eleventy` (run from the base directory)
-5. Add changed files with `git add *`
-6. Commit with `git commit -m "Add: weeknotes for week yyyy-mm-dd"`
-7. Push changes to Github `git push`
+   * To preview changes locally, run `npx @11ty/eleventy --serve`
+6. Add changed files with `git add *`
+7. Commit with `git commit -m "Add: weeknotes for week yyyy-mm-dd"`
+8. Push changes to Github `git push`
 (Or commit changes and push using GitHub desktop)

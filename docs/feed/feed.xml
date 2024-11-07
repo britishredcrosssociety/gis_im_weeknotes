@@ -4,7 +4,7 @@
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/feed/feed.xml" rel="self"/>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/gis_im_weeknotes/"/>
-	<updated>2024-10-24T00:00:00Z</updated>
+	<updated>2024-10-31T00:00:00Z</updated>
 	<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/</id>
 	<author>
 		<name>BRC GIS &amp; IM</name>
@@ -12,7 +12,23 @@
 	</author>
 	
 	<entry>
-		<title>Upcoming trainings we are facilitating, Azure Maps API, GIS in Eswatini, and Nigerian Red Cross Peer Learning event with YouthMappers</title>
+		<title>Geographic lookups, API access to security information, ArcGIS Hub Premium and Drones</title>
+		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-31/"/>
+		<updated>2024-10-31T00:00:00Z</updated>
+		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-31/</id>
+		<content type="html">&lt;h2 id=&quot;geo-lookups&quot; tabindex=&quot;-1&quot;&gt;Geo Lookups &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-31/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We had early discussions with colleagues about how to make better use of geographic lookups for signposting to relevant services. What started as a conversation about how to update data on a webmap expanded into how services covering different geographies could be easily looked up for a given client location. We talked a bit about possible query interfaces beyond a simple map, and the maintenance burden of building a more complex data structure that might support detailed queries. There’s no work planned on this for now, but there was a lot of interest in the possibilities.&lt;/p&gt;
+&lt;h2 id=&quot;api-access-to-security-information-that-affects-ngos&quot; tabindex=&quot;-1&quot;&gt;API access to Security Information that affects NGOs &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-31/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We’ve been in discussions with &lt;a href=&quot;https://insecurityinsight.org/&quot;&gt;Insecurity Insight&lt;/a&gt;, an organisation that examines threats facing people living and working in dangerous environments, with datasets that include aid workers who were killed, injured, kidnapped, or arrested. Their data is currently published on &lt;a href=&quot;https://data.humdata.org/organization/insecurity-insight&quot;&gt;HDX&lt;/a&gt;. This data is used within British Red Cross to inform security for our staff. We are working with them to get API access to the dataset, to enable updates which can feed directly into info products.&lt;/p&gt;
+&lt;h2 id=&quot;arcgis-hub-premium&quot; tabindex=&quot;-1&quot;&gt;ArcGIS Hub Premium &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-31/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We have activated an instance of ArcGIS Hub Premium as part of our ArcGIS license. We’re aiming to test out the functionality and see how useful/applicable it might be to support our domestic Crisis and Emergency Response services. We’ve seen examples of other charities using Hub Premium to engage with their volunteer capacity, without needing to grant full access to ArcGIS Online. We are looking to see if this is replicable to the British Red Cross context and way of working.&lt;/p&gt;
+&lt;h2 id=&quot;ifrc-drones-working-group&quot; tabindex=&quot;-1&quot;&gt;IFRC Drones Working Group &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-31/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The IFRC with Red Cross and Red Cresent National Societies run a number of working groups focusing on different topics – one being drones. This week the German Red Cross presented about their National UAV capacity that includes over 450 trained people in their branches across Germany, and how they support their emergency services.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Upcoming trainings, Azure Maps API, GIS in Eswatini, and Nigerian RC event with YouthMappers</title>
 		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-24/"/>
 		<updated>2024-10-24T00:00:00Z</updated>
 		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-24/</id>

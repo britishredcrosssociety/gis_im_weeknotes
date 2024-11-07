@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Missing Maps job, maps in Excel and Sharepoint, drones surge, maps guidance</title>
+		<title>Geographic lookups, API access to security information, ArcGIS Hub Premium and Drones</title>
 		<meta name="description" content="Weeknotes from BRC GIS &amp; IM team">
 		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.xml" type="application/atom+xml" title="BRC GIS &amp; IM">
 		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.json" type="application/json" title="BRC GIS &amp; IM">
@@ -465,63 +465,28 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			
-<h1>Missing Maps job, maps in Excel and Sharepoint, drones surge, maps guidance</h1>
+<h1>Geographic lookups, API access to security information, ArcGIS Hub Premium and Drones</h1>
 
 <ul class="post-metadata">
-	<li><time datetime="2024-10-03">03 October 2024</time></li>
+	<li><time datetime="2024-10-31">31 October 2024</time></li>
 </ul>
 
-<h2 id="missing-maps-job" tabindex="-1">Missing Maps job <a class="header-anchor" href="#missing-maps-job">#</a></h2>
-<p>The job that the team was consulted on the job description for is now live:</p>
-<ul>
-<li><a href="https://careers.redcross.org.uk/vacancies/10471/workshop-facilitator--missing-maps.html">Missing Maps Workshop facilitator</a>
-<ul>
-<li>Location: UK flexible</li>
-<li>Pay: £350-400 day rate</li>
-<li>Contract type: Self-employed</li>
-<li>Closing date: 16 October 2024</li>
-</ul>
-</li>
-</ul>
-<h2 id="maps-in-excel" tabindex="-1">Maps in Excel <a class="header-anchor" href="#maps-in-excel">#</a></h2>
-<p>We looked a bit deeper into the possibilities for using ArcGIS Online maps in Excel and Sharepoint.</p>
-<p>For Excel, we looked at what's possible using the ArcGIS Excel plugin as an unlicensed user. We discovered that users without a license assigned can:</p>
-<ul>
-<li>Only add one public featurelayer at a time from ArcGIS Online to a map in Excel</li>
-<li>Add one public webmap to a map in Excel, which can contain multiple layers that someone else has made</li>
-</ul>
-<p>If an unlicensed user adds a public webmap, the feature layers from that map are added to the Excel map as individual layers. If the user then adds another featurelayer to the map, the layers from the public webmap are removed.</p>
-<p>We'll continue looking into what the capabilities are for licensed vs unlicensed users, as it helps us understand what's the best way to support people according to their specific needs.</p>
-<h2 id="maps-in-sharepoint" tabindex="-1">Maps in Sharepoint <a class="header-anchor" href="#maps-in-sharepoint">#</a></h2>
-<p>We looked again at options for creating maps from Sharepoint lists. In particular, for geocoding data from a Sharepoint list using PowerAutomate and feeding that into a map on ArcGIS Online. We've prototyped a workflow that takes address data from a sharepoint list and processes it so it will show up in an ArcGIS map component on a Sharepoint site.</p>
-<p>The basic workflow is:</p>
-<ul>
-<li>Add the address as an address data type in a Sharepoint list</li>
-<li>This automatically geocodes to a lat/long coordinate pair in the background</li>
-<li>Use PowerAutomate to split the coordinates into explicit <code>Lat</code> and <code>Long</code> columns</li>
-<li>Use these columns to provide the location for visualisation on the ArcGIS map component for Sharepoint</li>
-</ul>
-<h2 id="drones-surge" tabindex="-1">Drones surge <a class="header-anchor" href="#drones-surge">#</a></h2>
-<p>We contributed to a IFRC Surge Awareness seminar on the use of drones/UAVs for emergency response. Drone teams are now available to request as part of the IFRC surge catalogue, with teams available to deploy from American and Italian Red Cross. The services currently offered are:</p>
-<ul>
-<li>Media and comms</li>
-<li>Situational awareness</li>
-<li>Mapping</li>
-<li>Site surveys
-It's likely that the services offered will expand in the future as more National Societies set up teams capable of offering surge support.
-The presentation (prepared by American Red Cross) covered how the surge mechanism works for drone teams, explained the benefits of using drones for emergency response, and gave a brief overview of how drone mapping works.</li>
-</ul>
-<p>The other version of this call, presented by American Red Cross, is available on the <a href="https://www.youtube.com/watch?v=sFKWu7CRgqk">IFRC Drones Group YouTube channel</a>.</p>
-<h2 id="maps-guidance-document" tabindex="-1">Maps guidance document <a class="header-anchor" href="#maps-guidance-document">#</a></h2>
-<p>We started work on a document on the use of maps as a guide to other teams. It will include things to consider for people making or commissioning maps, such as use of suitable colours, our approved datasets for international boundaries, how to show disputed boundaries, etc.</p>
+<h2 id="geo-lookups" tabindex="-1">Geo Lookups <a class="header-anchor" href="#geo-lookups">#</a></h2>
+<p>We had early discussions with colleagues about how to make better use of geographic lookups for signposting to relevant services. What started as a conversation about how to update data on a webmap expanded into how services covering different geographies could be easily looked up for a given client location. We talked a bit about possible query interfaces beyond a simple map, and the maintenance burden of building a more complex data structure that might support detailed queries. There’s no work planned on this for now, but there was a lot of interest in the possibilities.</p>
+<h2 id="api-access-to-security-information-that-affects-ngos" tabindex="-1">API access to Security Information that affects NGOs <a class="header-anchor" href="#api-access-to-security-information-that-affects-ngos">#</a></h2>
+<p>We’ve been in discussions with <a href="https://insecurityinsight.org/">Insecurity Insight</a>, an organisation that examines threats facing people living and working in dangerous environments, with datasets that include aid workers who were killed, injured, kidnapped, or arrested. Their data is currently published on <a href="https://data.humdata.org/organization/insecurity-insight">HDX</a>. This data is used within British Red Cross to inform security for our staff. We are working with them to get API access to the dataset, to enable updates which can feed directly into info products.</p>
+<h2 id="arcgis-hub-premium" tabindex="-1">ArcGIS Hub Premium <a class="header-anchor" href="#arcgis-hub-premium">#</a></h2>
+<p>We have activated an instance of ArcGIS Hub Premium as part of our ArcGIS license. We’re aiming to test out the functionality and see how useful/applicable it might be to support our domestic Crisis and Emergency Response services. We’ve seen examples of other charities using Hub Premium to engage with their volunteer capacity, without needing to grant full access to ArcGIS Online. We are looking to see if this is replicable to the British Red Cross context and way of working.</p>
+<h2 id="ifrc-drones-working-group" tabindex="-1">IFRC Drones Working Group <a class="header-anchor" href="#ifrc-drones-working-group">#</a></h2>
+<p>The IFRC with Red Cross and Red Cresent National Societies run a number of working groups focusing on different topics – one being drones. This week the German Red Cross presented about their National UAV capacity that includes over 450 trained people in their branches across Germany, and how they support their emergency services.</p>
 
-<ul class="links-nextprev"><li>Previous: <a href="/gis_im_weeknotes/blog/2024-09-26/">Nigeria IM, drones case studies, conversations</a></li><li>Next: <a href="/gis_im_weeknotes/blog/2024-10-10/">Sharing spatial data and apps, UK boundaries and generalisation, Canadian Red Cross presentation, and security maps</a></li>
+<ul class="links-nextprev"><li>Previous: <a href="/gis_im_weeknotes/blog/2024-10-24/">Upcoming trainings, Azure Maps API, GIS in Eswatini, and Nigerian RC event with YouthMappers</a></li>
 </ul>
 
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/gis_im_weeknotes/blog/2024-10-03/` was built on 2024-11-07T08:57:13.175Z -->
+		<!-- This page `/gis_im_weeknotes/blog/2024-10-31/` was built on 2024-11-07T08:57:13.177Z -->
 	</body>
 </html>

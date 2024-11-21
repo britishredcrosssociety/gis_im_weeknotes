@@ -4,12 +4,79 @@
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/feed/feed.xml" rel="self"/>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/gis_im_weeknotes/"/>
-	<updated>2024-10-31T00:00:00Z</updated>
+	<updated>2024-11-14T00:00:00Z</updated>
 	<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/</id>
 	<author>
 		<name>BRC GIS &amp; IM</name>
 		<email>maps@redcross.org.uk</email>
 	</author>
+	
+	<entry>
+		<title>Trainings, incident response simulation, FOSS4G UK + more</title>
+		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-14/"/>
+		<updated>2024-11-14T00:00:00Z</updated>
+		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-14/</id>
+		<content type="html">&lt;p&gt;Two week&#39;s worth of updates, since we missed last week.&lt;/p&gt;
+&lt;h2 id=&quot;emergency-response-simulation&quot; tabindex=&quot;-1&quot;&gt;Emergency Response simulation &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-14/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;One of us travelled to Scotland to join an incident response simulation run by the
+Scotland Emergency Response team. We made maps on the fly in response to the scenario
+and the needs of the other participants.&lt;/p&gt;
+&lt;p&gt;Off the back of this, we started a prototype map template app so Emergency Response
+teams have a self-service tool to create a printable map with custom layers visible
+for when they are called to an incident.&lt;/p&gt;
+&lt;h2 id=&quot;designer-led-review-of-web-app&quot; tabindex=&quot;-1&quot;&gt;Designer-led review of web app &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-14/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;One of the team joined a review session for users of a web app we maintain,
+facilitated by a colleague from the Service Design team. The users did a walkthrough
+of how they use the app, which generated a lot of useful feedback.&lt;/p&gt;
+&lt;p&gt;This has led to us starting a prototype of an improved tool with additional
+data sources that can provide context (such as traffic, flooding, weather),
+improved styling for existing laters, and removing unnecessary/confusing elements
+for greater clarity.&lt;/p&gt;
+&lt;h2 id=&quot;trainings&quot; tabindex=&quot;-1&quot;&gt;Trainings &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-14/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;One of the team completed the IFRC&#39;s IMPACT training (a rather clumsy acronym for
+&amp;quot;International Mobilization and Preparation for Action&amp;quot;). The course is designed to
+prepared staff for working in an international context with colleagues from other
+National Societies and ICRC.&lt;/p&gt;
+&lt;p&gt;We also had a kick-off meeting to prepare for running a Humanitarian Information
+Analysis Course in Abuja, to run in March 2025.&lt;/p&gt;
+&lt;p&gt;More info on both trainings in the &lt;a href=&quot;https://surgelearning.ifrc.org/resources/catalog-emergency-trainings&quot;&gt;IFRC Surge Training Catalogue&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;security-map&quot; tabindex=&quot;-1&quot;&gt;Security map &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-14/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We continue working on a webmap for the BRC Security Unit, bringing together relevant
+data from different sources. The goal is to support the understanding of risk in
+different countries.&lt;/p&gt;
+&lt;h2 id=&quot;troubleshooting-overseas-british-territories-on-ifrc-go&quot; tabindex=&quot;-1&quot;&gt;Troubleshooting Overseas British Territories on IFRC GO &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-14/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We looked into an issue for colleagues wanting to submit reports on British Overseas
+Territories to the IFRC GO platform. OSBs aren&#39;t currently represented as separate
+entities on GO, so have no way to submit reports. (One of the endless complications in
+building a model that copes with the many and varied forms of soveriegnty). We&#39;ve flagged
+with the GO team to investigate further.&lt;/p&gt;
+&lt;h2 id=&quot;geocall-kenya-red-cross&quot; tabindex=&quot;-1&quot;&gt;GeoCall: Kenya Red Cross &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-14/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;On the latest Red Cross/Red Crescent Geo call we had an excellent presentation from
+a colleague at the Kenyan Red Cross on using GIS for flood risk management.
+They presented on community mapping in OpenStreetMap to model flood risk,
+and mapping flood impacts using optical and radar imagery together with field data collection.&lt;/p&gt;
+&lt;h2 id=&quot;foss4g-uk&quot; tabindex=&quot;-1&quot;&gt;FOSS4G UK &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-14/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;One of the team went to the &lt;a href=&quot;https://uk.osgeo.org/foss4guk2024/bristol.html&quot;&gt;FOSS4G UK event&lt;/a&gt; in Bristol.
+There were a wide range of presentations on using open source geospatial software
+to solve problems in different domains, from mapping ancient woodland to monitoring shipping.&lt;/p&gt;
+&lt;p&gt;Two of the most interesting from a technical point of view were a look at the Overture Maps
+datasets (&lt;a href=&quot;https://uk.osgeo.org/foss4guk2024/decks/11-al-graham-overture.pdf&quot;&gt;PDF&lt;/a&gt;)
+and using DuckDB to load geospatial data.&lt;/p&gt;
+&lt;h2 id=&quot;maps-in-excel&quot; tabindex=&quot;-1&quot;&gt;Maps in Excel &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-14/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;In recent weeks at our drop-in sessions we&#39;ve had a lot of discussion of using ArcGIS in Excel
+which has led us to explore what&#39;s possible or not for different types of users.&lt;/p&gt;
+&lt;p&gt;Recent observations include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It&#39;s not possible to change locations of labels&lt;/li&gt;
+&lt;li&gt;printing maps from Excel is no longer possible (a workaround is to load the
+document in Excel Online and use the “expand map to fullscreen” button, then take
+a screenshot of that)&lt;/li&gt;
+&lt;li&gt;Showing users how to add boundary data published by the Office for National Statitics from the ESRI Living Atlas&lt;/li&gt;
+&lt;li&gt;Custom boundary datasets need to be created by a user with an ArcGIS account,
+but can then be accessed by other users who don&#39;t have a license.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Geographic lookups, API access to security information, ArcGIS Hub Premium and Drones</title>

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Nigeria IM, drones case studies, conversations</title>
+		<title>Trainings, incident response simulation, FOSS4G UK + more</title>
 		<meta name="description" content="Weeknotes from BRC GIS &amp; IM team">
 		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.xml" type="application/atom+xml" title="BRC GIS &amp; IM">
 		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.json" type="application/json" title="BRC GIS &amp; IM">
@@ -465,51 +465,79 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			
-<h1>Nigeria IM, drones case studies, conversations</h1>
+<h1>Trainings, incident response simulation, FOSS4G UK + more</h1>
 
 <ul class="post-metadata">
-	<li><time datetime="2024-09-26">26 September 2024</time></li>
+	<li><time datetime="2024-11-14">14 November 2024</time></li>
 </ul>
 
-<p>Having started writing up team weeknotes last week, on this week's agenda was
-figuring out a good way to share them. I settled on using <a href="https://11ty.dev">11ty</a> to build the site and GitHub pages for sharing.</p>
-<h2 id="planning-humanitarian-information-analysis-training" tabindex="-1">Planning Humanitarian Information Analysis training <a class="header-anchor" href="#planning-humanitarian-information-analysis-training">#</a></h2>
-<p>As part of our ongoing programme of support and capacity building around
-information management with Nigerian Red Cross, last week we made progress
-on plans to hold a Humanitarian Information Analysis Course training in Abuja early in 2025.</p>
-<p>HIAC is designed to help people &quot;make sense of available information in
-humanitarian emergencies&quot;, providing a structural framework to gather and
-interpret primary and secondary data. The training helps people make sense of the large variety of information sources they will encounter responding to emergencies, triangulate between data sources to improve accuracy, and identify missing data.</p>
-<p>Some more info on HIAC is in IFRC's <a href="https://surgelearning.ifrc.org/resources/catalog-emergency-trainings">Catalogue of Emergency Trainings</a> (PDF).</p>
-<p>We also had some discussions on 2025 planning with colleagues at Nigerian Red
-Cross about some options for the work they're doing to <a href="https://medium.com/digital-and-innovation-at-british-red-cross/branch-level-experiences-in-growing-information-management-at-nigerian-red-cross-56f587abddf2">develop NRC's IM
-capacity</a>. We'll share more when the plans are more concrete.</p>
-<h2 id="drones-case-studies-website" tabindex="-1">Drones case studies website <a class="header-anchor" href="#drones-case-studies-website">#</a></h2>
-<p>Some of our team are supporting the <a href="https://drones.preparecenter.org/">IFRC Drones Working Group</a> to develop a
-case study resource, where people can look up the details of how drones are
-being used in the Red Cross Movement. The work is complementary to American Red Cross's 2020 report <a href="https://americanredcross.github.io/rcrc-drones/">Aid From The Air: An overview of drone use in the RCRC global network</a>.</p>
-<p>We've already done some work identifying possible case studies (researching which references from the report have enough detail to be useful as standalone case studies). This week, we worked on a minisite, also based on 11ty - taking advantage of 11ty's ability to <a href="https://florian.ec/blog/eleventy-data-pages/">create pages from structured data</a>. An initial test worked well, so we'll now focus on cleaning up the styling and building out the structure data for the case studies to draw on.</p>
-<p>Hopefully the case studies can provide a structure for documenting future activities in a way that's easy to share with others/learn from.</p>
-<h2 id="conversations-with-colleagues" tabindex="-1">Conversations with colleagues <a class="header-anchor" href="#conversations-with-colleagues">#</a></h2>
-<p>In our <a href="https://medium.com/digital-and-innovation-at-british-red-cross/looking-back-on-150-gis-im-hours-8ef07589fba1">drop-in session</a> this week, we discussed:</p>
+<p>Two week's worth of updates, since we missed last week.</p>
+<h2 id="emergency-response-simulation" tabindex="-1">Emergency Response simulation <a class="header-anchor" href="#emergency-response-simulation">#</a></h2>
+<p>One of us travelled to Scotland to join an incident response simulation run by the
+Scotland Emergency Response team. We made maps on the fly in response to the scenario
+and the needs of the other participants.</p>
+<p>Off the back of this, we started a prototype map template app so Emergency Response
+teams have a self-service tool to create a printable map with custom layers visible
+for when they are called to an incident.</p>
+<h2 id="designer-led-review-of-web-app" tabindex="-1">Designer-led review of web app <a class="header-anchor" href="#designer-led-review-of-web-app">#</a></h2>
+<p>One of the team joined a review session for users of a web app we maintain,
+facilitated by a colleague from the Service Design team. The users did a walkthrough
+of how they use the app, which generated a lot of useful feedback.</p>
+<p>This has led to us starting a prototype of an improved tool with additional
+data sources that can provide context (such as traffic, flooding, weather),
+improved styling for existing laters, and removing unnecessary/confusing elements
+for greater clarity.</p>
+<h2 id="trainings" tabindex="-1">Trainings <a class="header-anchor" href="#trainings">#</a></h2>
+<p>One of the team completed the IFRC's IMPACT training (a rather clumsy acronym for
+&quot;International Mobilization and Preparation for Action&quot;). The course is designed to
+prepared staff for working in an international context with colleagues from other
+National Societies and ICRC.</p>
+<p>We also had a kick-off meeting to prepare for running a Humanitarian Information
+Analysis Course in Abuja, to run in March 2025.</p>
+<p>More info on both trainings in the <a href="https://surgelearning.ifrc.org/resources/catalog-emergency-trainings">IFRC Surge Training Catalogue</a>.</p>
+<h2 id="security-map" tabindex="-1">Security map <a class="header-anchor" href="#security-map">#</a></h2>
+<p>We continue working on a webmap for the BRC Security Unit, bringing together relevant
+data from different sources. The goal is to support the understanding of risk in
+different countries.</p>
+<h2 id="troubleshooting-overseas-british-territories-on-ifrc-go" tabindex="-1">Troubleshooting Overseas British Territories on IFRC GO <a class="header-anchor" href="#troubleshooting-overseas-british-territories-on-ifrc-go">#</a></h2>
+<p>We looked into an issue for colleagues wanting to submit reports on British Overseas
+Territories to the IFRC GO platform. OSBs aren't currently represented as separate
+entities on GO, so have no way to submit reports. (One of the endless complications in
+building a model that copes with the many and varied forms of soveriegnty). We've flagged
+with the GO team to investigate further.</p>
+<h2 id="geocall-kenya-red-cross" tabindex="-1">GeoCall: Kenya Red Cross <a class="header-anchor" href="#geocall-kenya-red-cross">#</a></h2>
+<p>On the latest Red Cross/Red Crescent Geo call we had an excellent presentation from
+a colleague at the Kenyan Red Cross on using GIS for flood risk management.
+They presented on community mapping in OpenStreetMap to model flood risk,
+and mapping flood impacts using optical and radar imagery together with field data collection.</p>
+<h2 id="foss4g-uk" tabindex="-1">FOSS4G UK <a class="header-anchor" href="#foss4g-uk">#</a></h2>
+<p>One of the team went to the <a href="https://uk.osgeo.org/foss4guk2024/bristol.html">FOSS4G UK event</a> in Bristol.
+There were a wide range of presentations on using open source geospatial software
+to solve problems in different domains, from mapping ancient woodland to monitoring shipping.</p>
+<p>Two of the most interesting from a technical point of view were a look at the Overture Maps
+datasets (<a href="https://uk.osgeo.org/foss4guk2024/decks/11-al-graham-overture.pdf">PDF</a>)
+and using DuckDB to load geospatial data.</p>
+<h2 id="maps-in-excel" tabindex="-1">Maps in Excel <a class="header-anchor" href="#maps-in-excel">#</a></h2>
+<p>In recent weeks at our drop-in sessions we've had a lot of discussion of using ArcGIS in Excel
+which has led us to explore what's possible or not for different types of users.</p>
+<p>Recent observations include:</p>
 <ul>
-<li>Making maps from ArcGIS Online data in Excel</li>
-<li>Using PowerQuery to consolidate data from multiple Excel documents</li>
-<li>A broad look at creating a single source of truth for information in emergencies. We spoke a bit about the IFRC's approach and the recent use of the Data Entry &amp; Exploration Platform (<a href="https://thedeep.io/">DEEP</a>) in the response to Hurricane Beryl in the Caribbean.</li>
+<li>It's not possible to change locations of labels</li>
+<li>printing maps from Excel is no longer possible (a workaround is to load the
+document in Excel Online and use the “expand map to fullscreen” button, then take
+a screenshot of that)</li>
+<li>Showing users how to add boundary data published by the Office for National Statitics from the ESRI Living Atlas</li>
+<li>Custom boundary datasets need to be created by a user with an ArcGIS account,
+but can then be accessed by other users who don't have a license.</li>
 </ul>
-<p>This week we had useful conversations with colleagues in our Insight and Crisis Response teams about options for updating a layer on ArcGIS Online using Python scripts. It's something our team has been working with for a while and opens up a lot of options for moving beyond manual updates, which limit the number and frequency of updates you can manage.</p>
-<p>We also had a chat to people from the Innovation team about mapping options for
-possible work around supporting people affected by floods, and provided
-feedback on a job description for another team that overlaps with some of our
-work.</p>
 
-<ul class="links-nextprev"><li>Previous: <a href="/gis_im_weeknotes/blog/2024-09-19/">Office day, training plans, drop-in debriefs</a></li><li>Next: <a href="/gis_im_weeknotes/blog/2024-10-03/">Missing Maps job, maps in Excel and Sharepoint, drones surge, maps guidance</a></li>
+<ul class="links-nextprev"><li>Previous: <a href="/gis_im_weeknotes/blog/2024-10-31/">Geographic lookups, API access to security information, ArcGIS Hub Premium and Drones</a></li>
 </ul>
 
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/gis_im_weeknotes/blog/2024-09-26/` was built on 2024-11-21T10:28:53.461Z -->
+		<!-- This page `/gis_im_weeknotes/blog/2024-11-14/` was built on 2024-11-21T10:28:53.464Z -->
 	</body>
 </html>

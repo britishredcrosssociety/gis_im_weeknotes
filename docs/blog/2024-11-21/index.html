@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Trainings, incident response simulation, FOSS4G UK + more</title>
+		<title>Demoing maps, figuring out licenses, dynamic data attachments</title>
 		<meta name="description" content="Weeknotes from BRC GIS &amp; IM team">
 		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.xml" type="application/atom+xml" title="BRC GIS &amp; IM">
 		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.json" type="application/json" title="BRC GIS &amp; IM">
@@ -465,79 +465,32 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			
-<h1>Trainings, incident response simulation, FOSS4G UK + more</h1>
+<h1>Demoing maps, figuring out licenses, dynamic data attachments</h1>
 
 <ul class="post-metadata">
-	<li><time datetime="2024-11-14">14 November 2024</time></li>
+	<li><time datetime="2024-11-21">21 November 2024</time></li>
 </ul>
 
-<p>Two week's worth of updates, since we missed last week.</p>
-<h2 id="emergency-response-simulation" tabindex="-1">Emergency Response simulation <a class="header-anchor" href="#emergency-response-simulation">#</a></h2>
-<p>One of us travelled to Scotland to join an incident response simulation run by the
-Scotland Emergency Response team. We made maps on the fly in response to the scenario
-and the needs of the other participants.</p>
-<p>Off the back of this, we started a prototype map template app so Emergency Response
-teams have a self-service tool to create a printable map with custom layers visible
-for when they are called to an incident.</p>
-<h2 id="designer-led-review-of-web-app" tabindex="-1">Designer-led review of web app <a class="header-anchor" href="#designer-led-review-of-web-app">#</a></h2>
-<p>One of the team joined a review session for users of a web app we maintain,
-facilitated by a colleague from the Service Design team. The users did a walkthrough
-of how they use the app, which generated a lot of useful feedback.</p>
-<p>This has led to us starting a prototype of an improved tool with additional
-data sources that can provide context (such as traffic, flooding, weather),
-improved styling for existing laters, and removing unnecessary/confusing elements
-for greater clarity.</p>
-<h2 id="trainings" tabindex="-1">Trainings <a class="header-anchor" href="#trainings">#</a></h2>
-<p>One of the team completed the IFRC's IMPACT training (a rather clumsy acronym for
-&quot;International Mobilization and Preparation for Action&quot;). The course is designed to
-prepared staff for working in an international context with colleagues from other
-National Societies and ICRC.</p>
-<p>We also had a kick-off meeting to prepare for running a Humanitarian Information
-Analysis Course in Abuja, to run in March 2025.</p>
-<p>More info on both trainings in the <a href="https://surgelearning.ifrc.org/resources/catalog-emergency-trainings">IFRC Surge Training Catalogue</a>.</p>
-<h2 id="security-map" tabindex="-1">Security map <a class="header-anchor" href="#security-map">#</a></h2>
-<p>We continue working on a webmap for the BRC Security Unit, bringing together relevant
-data from different sources. The goal is to support the understanding of risk in
-different countries.</p>
-<h2 id="troubleshooting-overseas-british-territories-on-ifrc-go" tabindex="-1">Troubleshooting Overseas British Territories on IFRC GO <a class="header-anchor" href="#troubleshooting-overseas-british-territories-on-ifrc-go">#</a></h2>
-<p>We looked into an issue for colleagues wanting to submit reports on British Overseas
-Territories to the IFRC GO platform. OSBs aren't currently represented as separate
-entities on GO, so have no way to submit reports. (One of the endless complications in
-building a model that copes with the many and varied forms of soveriegnty). We've flagged
-with the GO team to investigate further.</p>
-<h2 id="geocall-kenya-red-cross" tabindex="-1">GeoCall: Kenya Red Cross <a class="header-anchor" href="#geocall-kenya-red-cross">#</a></h2>
-<p>On the latest Red Cross/Red Crescent Geo call we had an excellent presentation from
-a colleague at the Kenyan Red Cross on using GIS for flood risk management.
-They presented on community mapping in OpenStreetMap to model flood risk,
-and mapping flood impacts using optical and radar imagery together with field data collection.</p>
-<h2 id="foss4g-uk" tabindex="-1">FOSS4G UK <a class="header-anchor" href="#foss4g-uk">#</a></h2>
-<p>One of the team went to the <a href="https://uk.osgeo.org/foss4guk2024/bristol.html">FOSS4G UK event</a> in Bristol.
-There were a wide range of presentations on using open source geospatial software
-to solve problems in different domains, from mapping ancient woodland to monitoring shipping.</p>
-<p>Two of the most interesting from a technical point of view were a look at the Overture Maps
-datasets (<a href="https://uk.osgeo.org/foss4guk2024/decks/11-al-graham-overture.pdf">PDF</a>)
-and using DuckDB to load geospatial data.</p>
-<h2 id="maps-in-excel" tabindex="-1">Maps in Excel <a class="header-anchor" href="#maps-in-excel">#</a></h2>
-<p>In recent weeks at our drop-in sessions we've had a lot of discussion of using ArcGIS in Excel
-which has led us to explore what's possible or not for different types of users.</p>
-<p>Recent observations include:</p>
-<ul>
-<li>It's not possible to change locations of labels</li>
-<li>printing maps from Excel is no longer possible (a workaround is to load the
-document in Excel Online and use the “expand map to fullscreen” button, then take
-a screenshot of that)</li>
-<li>Showing users how to add boundary data published by the Office for National Statitics from the ESRI Living Atlas</li>
-<li>Custom boundary datasets need to be created by a user with an ArcGIS account,
-but can then be accessed by other users who don't have a license.</li>
-</ul>
+<h2 id="published-new-maps" tabindex="-1">Published new maps <a class="header-anchor" href="#published-new-maps">#</a></h2>
+<p>We published the security map we've been working on for a while. The tool shows the locations of deployed staff, alongside data from Insecurity Insight and IFRC security ratings. The map was built in ArcGIS Experience Builder and has a companion Experience that allows security team staff to update some of the data sources through a form interface.</p>
+<p>We also updated some layers on a prototype Emergency Response map we're working on: creating view layers for flooding, weather, traffic, and internal data that abstract some of the detail; and drafting explanatory metadata so the layers can be used in a self-service way more easily.</p>
+<p>A map of case studies we made with the Community Engagement and Accountability Hub was published on their website. This was also made with Experience Builder and involved some trade-offs between the brief from the team and what's possible in Experience Builder. Some technical details we couldn't iron out, but hopefully we can come back to them as Experience Builder matures.</p>
+<h2 id="demos-of-mapping-tools" tabindex="-1">Demos of mapping tools <a class="header-anchor" href="#demos-of-mapping-tools">#</a></h2>
+<p>We demoed our Crisis Response mapping product to a colleague to check that it doesn't duplicate functionality being built into a new tool by a different team. The outcome was that we all have a better understanding of what each tool does, and we're happy that the two tools do different things.</p>
+<p>We held the final Python User Group session of 2024 and did a demo of some tools our team has built using Streamlit, such as a postcode geocoding tool (<a href="https://postcodelookupapp-yaadvzhrseyhsdhbssw8qh.streamlit.app/">Streamlit app</a>, <a href="https://github.com/ioalexei/postcode_lookup_streamlit">GitHub repo</a>), a tool to work with deployment data, and a tool to help understand catchment areas for event venues (<a href="https://event-venue-catchment-area-hvjr4scwvaiigvuygshpxt.streamlit.app/">Streamlit app</a>, <a href="https://github.com/britishredcrosssociety/event-venue-catchment-area">GitHub repo</a>).</p>
+<h2 id="licenses" tabindex="-1">Licenses <a class="header-anchor" href="#licenses">#</a></h2>
+<p>We had conversations about the best way to get ESRI licenses for more people in the organisation (that is, how do we fund licenses beyond what's included in our annual subscription). There is growing demand for people to access and edit internal data, which requires licenses - so we're talking to potential users and budget holders to try to find a solution that works for everyone.</p>
+<h2 id="dynamic-data-attachments" tabindex="-1">Dynamic data attachments <a class="header-anchor" href="#dynamic-data-attachments">#</a></h2>
+<p>We spent some time figuring out how to use <a href="https://support.kobotoolbox.org/dynamic_data_attachment.html">dynamic data attachments</a> in <a href="https://www.kobotoolbox.org/">KoboToolbox</a>, with the aim of helping colleagues in one of our partner National Societies use this feature to track indicators across several rounds of household assessments. In theory, this should allow surveyors to pull existing data from previous assessments so they don't need to repeat questions unnecessarily, leading to quicker surveys and less chance for error.</p>
+<p>We found that when allowing dynamic data attachments in the Kobo interface, you are given a warning that this could expose all data saved in the project. After digging deeper, it seems that only the specific fields chosen by the admin get exposed, which is much less of a risk for data protection since sensitive data can be kept hidden.</p>
 
-<ul class="links-nextprev"><li>Previous: <a href="/gis_im_weeknotes/blog/2024-10-31/">Geographic lookups, API access to security information, ArcGIS Hub Premium and Drones</a></li><li>Next: <a href="/gis_im_weeknotes/blog/2024-11-21/">Demoing maps, figuring out licenses, dynamic data attachments</a></li>
+<ul class="links-nextprev"><li>Previous: <a href="/gis_im_weeknotes/blog/2024-11-14/">Trainings, incident response simulation, FOSS4G UK + more</a></li>
 </ul>
 
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/gis_im_weeknotes/blog/2024-11-14/` was built on 2024-12-02T12:29:35.214Z -->
+		<!-- This page `/gis_im_weeknotes/blog/2024-11-21/` was built on 2024-12-02T12:29:35.214Z -->
 	</body>
 </html>

@@ -4,12 +4,32 @@
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/feed/feed.xml" rel="self"/>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/gis_im_weeknotes/"/>
-	<updated>2024-11-14T00:00:00Z</updated>
+	<updated>2024-11-21T00:00:00Z</updated>
 	<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/</id>
 	<author>
 		<name>BRC GIS &amp; IM</name>
 		<email>maps@redcross.org.uk</email>
 	</author>
+	
+	<entry>
+		<title>Demoing maps, figuring out licenses, dynamic data attachments</title>
+		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-21/"/>
+		<updated>2024-11-21T00:00:00Z</updated>
+		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-21/</id>
+		<content type="html">&lt;h2 id=&quot;published-new-maps&quot; tabindex=&quot;-1&quot;&gt;Published new maps &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-21/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We published the security map we&#39;ve been working on for a while. The tool shows the locations of deployed staff, alongside data from Insecurity Insight and IFRC security ratings. The map was built in ArcGIS Experience Builder and has a companion Experience that allows security team staff to update some of the data sources through a form interface.&lt;/p&gt;
+&lt;p&gt;We also updated some layers on a prototype Emergency Response map we&#39;re working on: creating view layers for flooding, weather, traffic, and internal data that abstract some of the detail; and drafting explanatory metadata so the layers can be used in a self-service way more easily.&lt;/p&gt;
+&lt;p&gt;A map of case studies we made with the Community Engagement and Accountability Hub was published on their website. This was also made with Experience Builder and involved some trade-offs between the brief from the team and what&#39;s possible in Experience Builder. Some technical details we couldn&#39;t iron out, but hopefully we can come back to them as Experience Builder matures.&lt;/p&gt;
+&lt;h2 id=&quot;demos-of-mapping-tools&quot; tabindex=&quot;-1&quot;&gt;Demos of mapping tools &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-21/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We demoed our Crisis Response mapping product to a colleague to check that it doesn&#39;t duplicate functionality being built into a new tool by a different team. The outcome was that we all have a better understanding of what each tool does, and we&#39;re happy that the two tools do different things.&lt;/p&gt;
+&lt;p&gt;We held the final Python User Group session of 2024 and did a demo of some tools our team has built using Streamlit, such as a postcode geocoding tool (&lt;a href=&quot;https://postcodelookupapp-yaadvzhrseyhsdhbssw8qh.streamlit.app/&quot;&gt;Streamlit app&lt;/a&gt;, &lt;a href=&quot;https://github.com/ioalexei/postcode_lookup_streamlit&quot;&gt;GitHub repo&lt;/a&gt;), a tool to work with deployment data, and a tool to help understand catchment areas for event venues (&lt;a href=&quot;https://event-venue-catchment-area-hvjr4scwvaiigvuygshpxt.streamlit.app/&quot;&gt;Streamlit app&lt;/a&gt;, &lt;a href=&quot;https://github.com/britishredcrosssociety/event-venue-catchment-area&quot;&gt;GitHub repo&lt;/a&gt;).&lt;/p&gt;
+&lt;h2 id=&quot;licenses&quot; tabindex=&quot;-1&quot;&gt;Licenses &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-21/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We had conversations about the best way to get ESRI licenses for more people in the organisation (that is, how do we fund licenses beyond what&#39;s included in our annual subscription). There is growing demand for people to access and edit internal data, which requires licenses - so we&#39;re talking to potential users and budget holders to try to find a solution that works for everyone.&lt;/p&gt;
+&lt;h2 id=&quot;dynamic-data-attachments&quot; tabindex=&quot;-1&quot;&gt;Dynamic data attachments &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-21/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We spent some time figuring out how to use &lt;a href=&quot;https://support.kobotoolbox.org/dynamic_data_attachment.html&quot;&gt;dynamic data attachments&lt;/a&gt; in &lt;a href=&quot;https://www.kobotoolbox.org/&quot;&gt;KoboToolbox&lt;/a&gt;, with the aim of helping colleagues in one of our partner National Societies use this feature to track indicators across several rounds of household assessments. In theory, this should allow surveyors to pull existing data from previous assessments so they don&#39;t need to repeat questions unnecessarily, leading to quicker surveys and less chance for error.&lt;/p&gt;
+&lt;p&gt;We found that when allowing dynamic data attachments in the Kobo interface, you are given a warning that this could expose all data saved in the project. After digging deeper, it seems that only the specific fields chosen by the admin get exposed, which is much less of a risk for data protection since sensitive data can be kept hidden.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Trainings, incident response simulation, FOSS4G UK + more</title>

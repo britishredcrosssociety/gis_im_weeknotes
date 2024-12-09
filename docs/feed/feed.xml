@@ -4,12 +4,43 @@
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/feed/feed.xml" rel="self"/>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/gis_im_weeknotes/"/>
-	<updated>2024-11-21T00:00:00Z</updated>
+	<updated>2024-11-28T00:00:00Z</updated>
 	<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/</id>
 	<author>
 		<name>BRC GIS &amp; IM</name>
 		<email>maps@redcross.org.uk</email>
 	</author>
+	
+	<entry>
+		<title>Lunch, globes, 2025 planning and MENA training</title>
+		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-28/"/>
+		<updated>2024-11-28T00:00:00Z</updated>
+		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-28/</id>
+		<content type="html">&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We had a combined team day and Christmas lunch. We used the morning to review 2024 and look ahead to 2025 and identified some topics to do some more detailed planning on in January. And then had a Christmas lunch, joined by one of our IM Register members who happened to be in town for a few days.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We held the first two sessions of a three-week GIS training for colleagues from National Societies in the Middle East region. The content is being taught from the &lt;a href=&quot;https://giscience.github.io/gis-training-resource-center/&quot;&gt;IFRC GIS training platform&lt;/a&gt;, and will let us test the content and format some more.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Some of the team went to the Royal Geographic Society&#39;s &lt;a href=&quot;https://www.rgs.org/events/upcoming-events/the-art-of-globemaking-inside-the-hidden-world-of-an-ancient-craft&quot;&gt;globe-making event&lt;/a&gt; at Stanford&#39;s map shop.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We did another interview with a user of one of our most-used web apps, to better understand how it&#39;s being used and any pain points with the current setup. We&#39;ll soon have to rebuild the tool in ESRI&#39;s Experience Builder when it &lt;a href=&quot;https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/wab-retirement.htm&quot;&gt;replaces&lt;/a&gt; Web App Builder and want to understand how we can improve it before starting the work.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We spoke to colleagues working in Health Information Management about their upcoming work, and had a good introduction to BRC&#39;s new Senior Disaster Risk Reduction and Climate Resilience adviser. We shared some information about what our team does, particularly around support for Enhanced Vulnerability and Capacity Assessments.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We continued planning for the Humanitarian Information Analysis training to be held in Abuja in early 2025, and separately joined a planning session for Nigerian Red Cross&#39; IM activities for 2025.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We had a meeting with colleagues working on a mapping tool in PowerBI to understand the project better and answer their technical questions about ArcGIS Online. (The tool uses ArcGIS as a data source.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Demoing maps, figuring out licenses, dynamic data attachments</title>

@@ -11,6 +11,14 @@
 	},
 	"items": [
 		{
+			"id": "https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-12-05/",
+			"url": "https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-12-05/",
+			"title": "IM in Nigeria programme, Chad StoryMap, trainings",
+			"content_html": "<ul>\n<li>\n<p>We joined the information management sessions at the BRC's Nigeria programme quarterly meeting.</p>\n<ul>\n<li>IM focal points presented the impact of IM - this ranged from moving away from paper-based workflows, to training staff and volunteers in IM, supporting distributions, Excel trainings, the use of Kobo forms for Food Security and Livelihoods, WASH and Health programmes, and being able to respond more effectively (e.g. to provide IM support for the Mpox response).</li>\n</ul>\n</li>\n<li>\n<p>We supported colleagues in the Communications team to build a StoryMap to show the impact of a Red Cross livelihoods programme in Chad. One of the team has been helping the comms team build the StoryMap and another spent some time digitising river channels from satellite imagery. There are still a few small things to tweak but we're hoping the article will be published next week.</p>\n</li>\n<li>\n<p>More 2025 planning, this time with the IFRC Surge IM Working Groups</p>\n</li>\n<li>\n<p>We updated a map-based Excel dashboard so that a pivot chart and a map both update based on a single slicer. ArcGIS maps in Excel can use a pivot table as a data source for a map layer, but if the pivot table is filtered the change doesn't reflect on the map. The solution was to create a hidden non-pivot table copy of the contents of the pivot table and use that as the source for the map layer. It's a workaround, but it's good enough for now.</p>\n</li>\n<li>\n<p>We finished the first version of a geospatial support tool (based on the ESRI Atlas instant app template) and shared it with operational teams. The tool allows users to easily change basemaps, add layers from a pre-selected list (focused on severe weather, operational assets and social vulnerability), and make sketches or measurements on the map canvas.</p>\n</li>\n<li>\n<p>We're half way through a GIS training for National Societies in the MENA region, working with IFRC, German Red Cross, Netherlands Red Cross and HeiGIT. We've also been preparing to run a training on the role of SIMS Remote Coordinator with the American Red Cross.</p>\n</li>\n</ul>\n",
+			"date_published": "2024-12-05T00:00:00Z"
+		}
+		,
+		{
 			"id": "https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-28/",
 			"url": "https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-11-28/",
 			"title": "Lunch, globes, 2025 planning and MENA training",

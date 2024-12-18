@@ -4,12 +4,54 @@
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/feed/feed.xml" rel="self"/>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/gis_im_weeknotes/"/>
-	<updated>2024-12-05T00:00:00Z</updated>
+	<updated>2024-12-12T00:00:00Z</updated>
 	<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/</id>
 	<author>
 		<name>BRC GIS &amp; IM</name>
 		<email>maps@redcross.org.uk</email>
 	</author>
+	
+	<entry>
+		<title>Trainings wrapped, troubleshooting 3D basemaps, mapping tips</title>
+		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-12-12/"/>
+		<updated>2024-12-12T00:00:00Z</updated>
+		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-12-12/</id>
+		<content type="html">&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We ran a &lt;a href=&quot;https://rcrcsims.org/&quot;&gt;SIMS&lt;/a&gt; Remote Coordinator training with a colleague from American Red Cross. The training introduced people to the role of the SIMS remote coordinator, including how they work with a deployed IM Coordinator and the wider SIMS network to produce information products for a response.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We also ran the final session of the three-week introduction to GIS training with colleagues from MENA region National Societies. We had a good experience and have taken a lot of learnings about using the &lt;a href=&quot;https://giscience.github.io/gis-training-resource-center/&quot;&gt;GIS training platform&lt;/a&gt; for teaching live classes. Participants&#39; final assignements are due in January, which we&#39;re looking forward to seeing!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We published a blog post on the BRC intranet with tips for using maps in communications materials, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Understanding your audience&lt;/li&gt;
+&lt;li&gt;Clarity of message&lt;/li&gt;
+&lt;li&gt;Using BRC branding&lt;/li&gt;
+&lt;li&gt;Representing contested borders/areas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We made a lookup table to match postcodes to some of one of our service&#39;s regional boundaries. We tested out &lt;a href=&quot;https://duckdb.org/&quot;&gt;DuckDB&lt;/a&gt; for reading and processing the postcode dataset, which was significantly faster than using Python&#39;s Pandas package. As the lookup table will need to be updated with every quarterly release of the &lt;a href=&quot;https://geoportal.statistics.gov.uk/datasets/b54177d3d7264cd6ad89e74dd9c1391d/about&quot;&gt;ONS Postcode Directory&lt;/a&gt;, we&#39;ll look into making a self-service tool for this data in the new year.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We did some troubleshooting on an issue with 3D basemaps not showing correctly in an ArcGIS Online Instant App. The issue was caused by projection settings being carried over from a 2D basemap layer. Our 2D basemap layer was projected as British National Grid (EPSG 27700) whereas the 3D basemap &lt;em&gt;should&lt;/em&gt; have been in the WGS 84 coordinate reference system (EPSG 4326). We expected that AGOL would treat these as separate layers and manage the transformations between CRSs, but the 3D basemap CRS seems locked to that the 2D layer which made it disabled for adding to a map with layers in other CRSs. Switching to a WGS84 2D base layer allowed 3D basemaps to also be added to the same map.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We gave an overview to a colleague about why counting households in a particular area in the UK is hard, especially if you&#39;re restricted to open data. The initial request was to count the numbers of households per postcode across the area where a project is being implemented. We highlighted:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Household data is only summarised at the Output Area level, which covers a large area and isn&#39;t suitable for detailed local planning&lt;/li&gt;
+&lt;li&gt;Openly available address datasets have their drawbacks (e.g. not being able to distinguish residential from business addresses)&lt;/li&gt;
+&lt;li&gt;OpenStreetMap data quality is variable (and in the area of interest had poor coverage for residential buidlings)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We read Sam Colchester&#39;s great &lt;a href=&quot;https://www.openstreetmap.org/user/SColchester/diary/405693&quot;&gt;after-action review&lt;/a&gt; on Humanitarian OpenStreetMap&#39;s support to Nigerian Red Cross for the response to flooding in Maiduguri in September 2024.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>IM in Nigeria programme, Chad StoryMap, trainings</title>

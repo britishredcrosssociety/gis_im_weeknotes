@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Demoing maps, figuring out licenses, dynamic data attachments</title>
+		<title>Trainings wrapped, troubleshooting 3D basemaps, mapping tips</title>
 		<meta name="description" content="Weeknotes from BRC GIS &amp; IM team">
 		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.xml" type="application/atom+xml" title="BRC GIS &amp; IM">
 		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.json" type="application/json" title="BRC GIS &amp; IM">
@@ -466,32 +466,54 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			
-<h1>Demoing maps, figuring out licenses, dynamic data attachments</h1>
+<h1>Trainings wrapped, troubleshooting 3D basemaps, mapping tips</h1>
 
 <ul class="post-metadata">
-	<li><time datetime="2024-11-21">21 November 2024</time></li>
+	<li><time datetime="2024-12-12">12 December 2024</time></li>
 </ul>
 
-<h2 id="published-new-maps" tabindex="-1">Published new maps <a class="header-anchor" href="#published-new-maps">#</a></h2>
-<p>We published the security map we've been working on for a while. The tool shows the locations of deployed staff, alongside data from Insecurity Insight and IFRC security ratings. The map was built in ArcGIS Experience Builder and has a companion Experience that allows security team staff to update some of the data sources through a form interface.</p>
-<p>We also updated some layers on a prototype Emergency Response map we're working on: creating view layers for flooding, weather, traffic, and internal data that abstract some of the detail; and drafting explanatory metadata so the layers can be used in a self-service way more easily.</p>
-<p>A map of case studies we made with the Community Engagement and Accountability Hub was published on their website. This was also made with Experience Builder and involved some trade-offs between the brief from the team and what's possible in Experience Builder. Some technical details we couldn't iron out, but hopefully we can come back to them as Experience Builder matures.</p>
-<h2 id="demos-of-mapping-tools" tabindex="-1">Demos of mapping tools <a class="header-anchor" href="#demos-of-mapping-tools">#</a></h2>
-<p>We demoed our Crisis Response mapping product to a colleague to check that it doesn't duplicate functionality being built into a new tool by a different team. The outcome was that we all have a better understanding of what each tool does, and we're happy that the two tools do different things.</p>
-<p>We held the final Python User Group session of 2024 and did a demo of some tools our team has built using Streamlit, such as a postcode geocoding tool (<a href="https://postcodelookupapp-yaadvzhrseyhsdhbssw8qh.streamlit.app/">Streamlit app</a>, <a href="https://github.com/ioalexei/postcode_lookup_streamlit">GitHub repo</a>), a tool to work with deployment data, and a tool to help understand catchment areas for event venues (<a href="https://event-venue-catchment-area-hvjr4scwvaiigvuygshpxt.streamlit.app/">Streamlit app</a>, <a href="https://github.com/britishredcrosssociety/event-venue-catchment-area">GitHub repo</a>).</p>
-<h2 id="licenses" tabindex="-1">Licenses <a class="header-anchor" href="#licenses">#</a></h2>
-<p>We had conversations about the best way to get ESRI licenses for more people in the organisation (that is, how do we fund licenses beyond what's included in our annual subscription). There is growing demand for people to access and edit internal data, which requires licenses - so we're talking to potential users and budget holders to try to find a solution that works for everyone.</p>
-<h2 id="dynamic-data-attachments" tabindex="-1">Dynamic data attachments <a class="header-anchor" href="#dynamic-data-attachments">#</a></h2>
-<p>We spent some time figuring out how to use <a href="https://support.kobotoolbox.org/dynamic_data_attachment.html">dynamic data attachments</a> in <a href="https://www.kobotoolbox.org/">KoboToolbox</a>, with the aim of helping colleagues in one of our partner National Societies use this feature to track indicators across several rounds of household assessments. In theory, this should allow surveyors to pull existing data from previous assessments so they don't need to repeat questions unnecessarily, leading to quicker surveys and less chance for error.</p>
-<p>We found that when allowing dynamic data attachments in the Kobo interface, you are given a warning that this could expose all data saved in the project. After digging deeper, it seems that only the specific fields chosen by the admin get exposed, which is much less of a risk for data protection since sensitive data can be kept hidden.</p>
+<ul>
+<li>
+<p>We ran a <a href="https://rcrcsims.org/">SIMS</a> Remote Coordinator training with a colleague from American Red Cross. The training introduced people to the role of the SIMS remote coordinator, including how they work with a deployed IM Coordinator and the wider SIMS network to produce information products for a response.</p>
+</li>
+<li>
+<p>We also ran the final session of the three-week introduction to GIS training with colleagues from MENA region National Societies. We had a good experience and have taken a lot of learnings about using the <a href="https://giscience.github.io/gis-training-resource-center/">GIS training platform</a> for teaching live classes. Participants' final assignements are due in January, which we're looking forward to seeing!</p>
+</li>
+<li>
+<p>We published a blog post on the BRC intranet with tips for using maps in communications materials, including:</p>
+<ul>
+<li>Understanding your audience</li>
+<li>Clarity of message</li>
+<li>Using BRC branding</li>
+<li>Representing contested borders/areas</li>
+</ul>
+</li>
+<li>
+<p>We made a lookup table to match postcodes to some of one of our service's regional boundaries. We tested out <a href="https://duckdb.org/">DuckDB</a> for reading and processing the postcode dataset, which was significantly faster than using Python's Pandas package. As the lookup table will need to be updated with every quarterly release of the <a href="https://geoportal.statistics.gov.uk/datasets/b54177d3d7264cd6ad89e74dd9c1391d/about">ONS Postcode Directory</a>, we'll look into making a self-service tool for this data in the new year.</p>
+</li>
+<li>
+<p>We did some troubleshooting on an issue with 3D basemaps not showing correctly in an ArcGIS Online Instant App. The issue was caused by projection settings being carried over from a 2D basemap layer. Our 2D basemap layer was projected as British National Grid (EPSG 27700) whereas the 3D basemap <em>should</em> have been in the WGS 84 coordinate reference system (EPSG 4326). We expected that AGOL would treat these as separate layers and manage the transformations between CRSs, but the 3D basemap CRS seems locked to that the 2D layer which made it disabled for adding to a map with layers in other CRSs. Switching to a WGS84 2D base layer allowed 3D basemaps to also be added to the same map.</p>
+</li>
+<li>
+<p>We gave an overview to a colleague about why counting households in a particular area in the UK is hard, especially if you're restricted to open data. The initial request was to count the numbers of households per postcode across the area where a project is being implemented. We highlighted:</p>
+<ul>
+<li>Household data is only summarised at the Output Area level, which covers a large area and isn't suitable for detailed local planning</li>
+<li>Openly available address datasets have their drawbacks (e.g. not being able to distinguish residential from business addresses)</li>
+<li>OpenStreetMap data quality is variable (and in the area of interest had poor coverage for residential buidlings)</li>
+</ul>
+</li>
+<li>
+<p>We read Sam Colchester's great <a href="https://www.openstreetmap.org/user/SColchester/diary/405693">after-action review</a> on Humanitarian OpenStreetMap's support to Nigerian Red Cross for the response to flooding in Maiduguri in September 2024.</p>
+</li>
+</ul>
 
-<ul class="links-nextprev"><li>Previous: <a href="/gis_im_weeknotes/blog/2024-11-14/">Trainings, incident response simulation, FOSS4G UK + more</a></li><li>Next: <a href="/gis_im_weeknotes/blog/2024-11-28/">Lunch, globes, 2025 planning and MENA training</a></li>
+<ul class="links-nextprev"><li>Previous: <a href="/gis_im_weeknotes/blog/2024-12-05/">IM in Nigeria programme, Chad StoryMap, trainings</a></li>
 </ul>
 
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/gis_im_weeknotes/blog/2024-11-21/` was built on 2024-12-18T11:56:55.633Z -->
+		<!-- This page `/gis_im_weeknotes/blog/2024-12-12/` was built on 2024-12-18T11:56:55.633Z -->
 	</body>
 </html>

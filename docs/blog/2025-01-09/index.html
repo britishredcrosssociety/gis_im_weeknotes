@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Lunch, globes, 2025 planning and MENA training</title>
+		<title>Geocoding with PowerQuery, internal presentations, GeoCall</title>
 		<meta name="description" content="Weeknotes from BRC GIS &amp; IM team">
 		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.xml" type="application/atom+xml" title="BRC GIS &amp; IM">
 		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.json" type="application/json" title="BRC GIS &amp; IM">
@@ -466,43 +466,43 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			
-<h1>Lunch, globes, 2025 planning and MENA training</h1>
+<h1>Geocoding with PowerQuery, internal presentations, GeoCall</h1>
 
 <ul class="post-metadata">
-	<li><time datetime="2024-11-28">28 November 2024</time></li>
+	<li><time datetime="2025-01-09">09 January 2025</time></li>
 </ul>
 
+<h2 id="geocoding-property-data-with-powerquery" tabindex="-1">Geocoding property data with PowerQuery <a class="header-anchor" href="#geocoding-property-data-with-powerquery">#</a></h2>
+<p>We receive monthly data updates from the BRC property team and process this to make it available on ArcGIS Online, where it's used in analyses by our GIS users. Up until now, we've updated it using an Excel doc with several sheets linked by XLOOKUPS, which required doing manual looking up of new addresses and pasting the coordinates into one of the sheets to feed a table in another sheet.</p>
+<p>We've now replaced this with a process based on PowerQuery in Excel. We broke the task down into steps and mapped out how to transform the input data so that it matches what we publish on AGOL. Some of the process needed a bit of trial and error, and we used ChatGPT for some troubleshooting.</p>
+<p>The process is now better documented and easier to run when new data is shared with us. We're now exploring doing the geociding directly in PowerQuery and removing the need for an intermediate lookup table.</p>
+<h2 id="sharing-our-work-internally" tabindex="-1">Sharing our work internally <a class="header-anchor" href="#sharing-our-work-internally">#</a></h2>
 <ul>
-<li>
-<p>We had a combined team day and Christmas lunch. We used the morning to review 2024 and look ahead to 2025 and identified some topics to do some more detailed planning on in January. And then had a Christmas lunch, joined by one of our IM Register members who happened to be in town for a few days.</p>
-</li>
-<li>
-<p>We held the first two sessions of a three-week GIS training for colleagues from National Societies in the Middle East region. The content is being taught from the <a href="https://giscience.github.io/gis-training-resource-center/">IFRC GIS training platform</a>, and will let us test the content and format some more.</p>
-</li>
-<li>
-<p>Some of the team went to the Royal Geographic Society's Monday night lecture about the art of <a href="https://www.rgs.org/events/upcoming-events/the-art-of-globemaking-inside-the-hidden-world-of-an-ancient-craft">globe-making</a>.</p>
-</li>
-<li>
-<p>We did another interview with a user of one of our most-used web apps, to better understand how it's being used and any pain points with the current setup. We'll soon have to rebuild the tool in ESRI's Experience Builder when it <a href="https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/wab-retirement.htm">replaces</a> Web App Builder and want to understand how we can improve it before starting the work.</p>
-</li>
-<li>
-<p>We spoke to colleagues working in Health Information Management about their upcoming work, and had a good introduction to BRC's new Senior Disaster Risk Reduction and Climate Resilience adviser. We shared some information about what our team does, particularly around support for Enhanced Vulnerability and Capacity Assessments.</p>
-</li>
-<li>
-<p>We continued planning for the Humanitarian Information Analysis training to be held in Abuja in early 2025, and separately joined a planning session for Nigerian Red Cross' IM activities for 2025.</p>
-</li>
-<li>
-<p>We had a meeting with colleagues working on a mapping tool in PowerBI to understand the project better and answer their technical questions about ArcGIS Online. (The tool uses ArcGIS as a data source.)</p>
-</li>
+<li>We did a presentation to the International team on how maps and spatial data can be useful in their work.</li>
+<li>We also presented what we work on to our parent team, Transformation &amp; Change. Our work is quite different to what the rest of the team works on, so it was a good chance to show what we do and answer questions.</li>
+<li>We had a meeting on information management systems and Cash programming with the team that works with Red Cross branches in British Overseas Territories .</li>
+</ul>
+<h2 id="geo-call" tabindex="-1">Geo Call <a class="header-anchor" href="#geo-call">#</a></h2>
+<ul>
+<li>We had a great presentation on this month's Red Cross/Red Crescent Geo call on a project to create street view imagery to support geospatial data workflows. The project was a collaboration between Indonesian Red Cross and American Red Cross, and involved volunteers capturing images from moped-mounted cameras. For the pilot project, the imagery will be used to <a href="https://github.com/AmericanRedCross/street-view-green-view/">assess vegetation</a> to understand climate resilience.</li>
+</ul>
+<h2 id="other-things" tabindex="-1">Other things <a class="header-anchor" href="#other-things">#</a></h2>
+<ul>
+<li>We had more meetings to plan the Humanitarian Information Analysis Course that we're supporting in March in Abuja. We had to shift the dates slightly so as not to coincide with Eid. The application process is now open to members of our Information Management Register.</li>
+<li>We have a new colleague on the Corporate Partnerships team who will be coordinating Missing Maps activities. We've had some introductory calls with them and will be working with them to support Missing Maps mapathons.</li>
+<li>We've had some good overlap with colleagues working on geospatial analysis for our health services. They are using network analysis to understand access to health facilities, so that BRC teams can better plan services</li>
+<li>We updated some of our internal boundary datasets to reflect reorganisation of some teams</li>
+<li>We shared updates on a piece of analysis for our Crisis Response and Community Resilience teams to get feedback. There were some requests for additional datasets to help them understand the geography of where different teams currently provide services.</li>
+<li>We also had good discussions with colleagues on other data teams to discuss how to manage overlapping requests for analysis. We'll combine our efforts to take advantage of the work each team has alraedy done.</li>
 </ul>
 
-<ul class="links-nextprev"><li>Previous: <a href="/gis_im_weeknotes/blog/2024-11-21/">Demoing maps, figuring out licenses, dynamic data attachments</a></li><li>Next: <a href="/gis_im_weeknotes/blog/2024-12-05/">IM in Nigeria programme, Chad StoryMap, trainings</a></li>
+<ul class="links-nextprev"><li>Previous: <a href="/gis_im_weeknotes/blog/2024-12-12/">Trainings wrapped, troubleshooting 3D basemaps, mapping tips</a></li>
 </ul>
 
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/gis_im_weeknotes/blog/2024-11-28/` was built on 2025-01-20T14:53:27.323Z -->
+		<!-- This page `/gis_im_weeknotes/blog/2025-01-09/` was built on 2025-01-20T14:53:27.322Z -->
 	</body>
 </html>

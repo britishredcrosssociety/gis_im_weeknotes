@@ -4,12 +4,43 @@
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/feed/feed.xml" rel="self"/>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/gis_im_weeknotes/"/>
-	<updated>2024-12-12T00:00:00Z</updated>
+	<updated>2025-01-09T00:00:00Z</updated>
 	<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/</id>
 	<author>
 		<name>BRC GIS &amp; IM</name>
 		<email>maps@redcross.org.uk</email>
 	</author>
+	
+	<entry>
+		<title>Geocoding with PowerQuery, internal presentations, GeoCall</title>
+		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-09/"/>
+		<updated>2025-01-09T00:00:00Z</updated>
+		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-09/</id>
+		<content type="html">&lt;h2 id=&quot;geocoding-property-data-with-powerquery&quot; tabindex=&quot;-1&quot;&gt;Geocoding property data with PowerQuery &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-09/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We receive monthly data updates from the BRC property team and process this to make it available on ArcGIS Online, where it&#39;s used in analyses by our GIS users. Up until now, we&#39;ve updated it using an Excel doc with several sheets linked by XLOOKUPS, which required doing manual looking up of new addresses and pasting the coordinates into one of the sheets to feed a table in another sheet.&lt;/p&gt;
+&lt;p&gt;We&#39;ve now replaced this with a process based on PowerQuery in Excel. We broke the task down into steps and mapped out how to transform the input data so that it matches what we publish on AGOL. Some of the process needed a bit of trial and error, and we used ChatGPT for some troubleshooting.&lt;/p&gt;
+&lt;p&gt;The process is now better documented and easier to run when new data is shared with us. We&#39;re now exploring doing the geociding directly in PowerQuery and removing the need for an intermediate lookup table.&lt;/p&gt;
+&lt;h2 id=&quot;sharing-our-work-internally&quot; tabindex=&quot;-1&quot;&gt;Sharing our work internally &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-09/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We did a presentation to the International team on how maps and spatial data can be useful in their work.&lt;/li&gt;
+&lt;li&gt;We also presented what we work on to our parent team, Transformation &amp;amp; Change. Our work is quite different to what the rest of the team works on, so it was a good chance to show what we do and answer questions.&lt;/li&gt;
+&lt;li&gt;We had a meeting on information management systems and Cash programming with the team that works with Red Cross branches in British Overseas Territories .&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;geo-call&quot; tabindex=&quot;-1&quot;&gt;Geo Call &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-09/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We had a great presentation on this month&#39;s Red Cross/Red Crescent Geo call on a project to create street view imagery to support geospatial data workflows. The project was a collaboration between Indonesian Red Cross and American Red Cross, and involved volunteers capturing images from moped-mounted cameras. For the pilot project, the imagery will be used to &lt;a href=&quot;https://github.com/AmericanRedCross/street-view-green-view/&quot;&gt;assess vegetation&lt;/a&gt; to understand climate resilience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;other-things&quot; tabindex=&quot;-1&quot;&gt;Other things &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-09/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We had more meetings to plan the Humanitarian Information Analysis Course that we&#39;re supporting in March in Abuja. We had to shift the dates slightly so as not to coincide with Eid. The application process is now open to members of our Information Management Register.&lt;/li&gt;
+&lt;li&gt;We have a new colleague on the Corporate Partnerships team who will be coordinating Missing Maps activities. We&#39;ve had some introductory calls with them and will be working with them to support Missing Maps mapathons.&lt;/li&gt;
+&lt;li&gt;We&#39;ve had some good overlap with colleagues working on geospatial analysis for our health services. They are using network analysis to understand access to health facilities, so that BRC teams can better plan services&lt;/li&gt;
+&lt;li&gt;We updated some of our internal boundary datasets to reflect reorganisation of some teams&lt;/li&gt;
+&lt;li&gt;We shared updates on a piece of analysis for our Crisis Response and Community Resilience teams to get feedback. There were some requests for additional datasets to help them understand the geography of where different teams currently provide services.&lt;/li&gt;
+&lt;li&gt;We also had good discussions with colleagues on other data teams to discuss how to manage overlapping requests for analysis. We&#39;ll combine our efforts to take advantage of the work each team has alraedy done.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Trainings wrapped, troubleshooting 3D basemaps, mapping tips</title>

@@ -3,12 +3,180 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>BRC GIS &amp; IM</title>
+		<title>Start/Stop/Continue, Python sessions, user research</title>
 		<meta name="description" content="Weeknotes from BRC GIS &amp; IM team">
 		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.xml" type="application/atom+xml" title="BRC GIS &amp; IM">
 		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.json" type="application/json" title="BRC GIS &amp; IM">
 		
-		<style>* { box-sizing: border-box; }
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -297,24 +465,39 @@ h2 + .header-anchor {
 		</header>
 
 		<main id="skip">
-			<h1 id="content-not-found" tabindex="-1">Content not found. <a class="header-anchor" href="#content-not-found">#</a></h1>
-<p>Go <a href="/gis_im_weeknotes/">home</a>.</p>
-<!--
+			
+<h1>Start/Stop/Continue, Python sessions, user research</h1>
 
-Read more: https://www.11ty.dev/docs/quicktips/not-found/
+<ul class="post-metadata">
+	<li><time datetime="2025-01-16">16 January 2025</time></li>
+</ul>
 
-This will work for both GitHub pages and Netlify:
+<h1 id="start-of-year-planning" tabindex="-1">Start of year planning <a class="header-anchor" href="#start-of-year-planning">#</a></h1>
+<p>We spent a morning reflecting on our work last year and doing some planning for the year ahead. We used the format &quot;Start / Stop / Continue&quot; to think through priorities and possibilities for new workstreams, and also got an update on what different team members are working on.</p>
+<h1 id="brc-python-user-group" tabindex="-1">BRC Python User Group <a class="header-anchor" href="#brc-python-user-group">#</a></h1>
+<p>We booked in the speakers for the next three months of BRC Python User Group sessions. We'll have people discussing using Python in PowerBI, a machine learning analysis and AI-assisted coding.</p>
+<h1 id="user-research" tabindex="-1">User research <a class="header-anchor" href="#user-research">#</a></h1>
+<ul>
+<li>We had a session with users of one of our tools to discuss feedback they'd given and to set priorities for the next phase of work on the project.</li>
+</ul>
+<h1 id="geocoding-with-powerquery" tabindex="-1">Geocoding with PowerQuery <a class="header-anchor" href="#geocoding-with-powerquery">#</a></h1>
+<ul>
+<li>Following on from <a href="%22./2025-01-09.md%22">last week's note</a>, we spend some more time working on geocoding in PowerQuery, this time automating the geocoding by connecting to the Google Maps API. The process now no longer relies on a lookup table to get the coordinates for an address.</li>
+</ul>
+<h1 id="other-things" tabindex="-1">Other things <a class="header-anchor" href="#other-things">#</a></h1>
+<ul>
+<li>A colleague flagged an error in a postcode lookup table we'd provided. We traced the error back to a separate dataset we host on ArcGIS Online that had mixed up the area codes for North West and North East. We fixed the error and regenerated the lookup table.</li>
+<li>We had a call with a colleague from Netherlands Red Cross on information management support to international partners.</li>
+<li>We started work on a Surge Information Management work plan.</li>
+</ul>
 
-* https://help.github.com/articles/creating-a-custom-404-page-for-your-github-pages-site/
-* https://www.netlify.com/docs/redirects/#custom-404
-
--->
-
+<ul class="links-nextprev"><li>Previous: <a href="/gis_im_weeknotes/blog/2025-01-09/">Geocoding with PowerQuery, internal presentations, GeoCall</a></li>
+</ul>
 
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/gis_im_weeknotes/404.html` was built on 2025-01-21T11:39:30.891Z -->
+		<!-- This page `/gis_im_weeknotes/blog/2025-01-16/` was built on 2025-01-21T11:39:30.889Z -->
 	</body>
 </html>

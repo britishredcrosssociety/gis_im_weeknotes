@@ -4,12 +4,38 @@
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/feed/feed.xml" rel="self"/>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/gis_im_weeknotes/"/>
-	<updated>2025-01-09T00:00:00Z</updated>
+	<updated>2025-01-16T00:00:00Z</updated>
 	<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/</id>
 	<author>
 		<name>BRC GIS &amp; IM</name>
 		<email>maps@redcross.org.uk</email>
 	</author>
+	
+	<entry>
+		<title>Start/Stop/Continue, Python sessions, user research</title>
+		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-16/"/>
+		<updated>2025-01-16T00:00:00Z</updated>
+		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-16/</id>
+		<content type="html">&lt;h1 id=&quot;start-of-year-planning&quot; tabindex=&quot;-1&quot;&gt;Start of year planning &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-16/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;We spent a morning reflecting on our work last year and doing some planning for the year ahead. We used the format &amp;quot;Start / Stop / Continue&amp;quot; to think through priorities and possibilities for new workstreams, and also got an update on what different team members are working on.&lt;/p&gt;
+&lt;h1 id=&quot;brc-python-user-group&quot; tabindex=&quot;-1&quot;&gt;BRC Python User Group &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-16/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;We booked in the speakers for the next three months of BRC Python User Group sessions. We&#39;ll have people discussing using Python in PowerBI, a machine learning analysis and AI-assisted coding.&lt;/p&gt;
+&lt;h1 id=&quot;user-research&quot; tabindex=&quot;-1&quot;&gt;User research &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-16/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;We had a session with users of one of our tools to discuss feedback they&#39;d given and to set priorities for the next phase of work on the project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;geocoding-with-powerquery&quot; tabindex=&quot;-1&quot;&gt;Geocoding with PowerQuery &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-16/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Following on from &lt;a href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-16/%22./2025-01-09.md%22&quot;&gt;last week&#39;s note&lt;/a&gt;, we spend some more time working on geocoding in PowerQuery, this time automating the geocoding by connecting to the Google Maps API. The process now no longer relies on a lookup table to get the coordinates for an address.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;other-things&quot; tabindex=&quot;-1&quot;&gt;Other things &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-16/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;A colleague flagged an error in a postcode lookup table we&#39;d provided. We traced the error back to a separate dataset we host on ArcGIS Online that had mixed up the area codes for North West and North East. We fixed the error and regenerated the lookup table.&lt;/li&gt;
+&lt;li&gt;We had a call with a colleague from Netherlands Red Cross on information management support to international partners.&lt;/li&gt;
+&lt;li&gt;We started work on a Surge Information Management work plan.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Geocoding with PowerQuery, internal presentations, GeoCall</title>

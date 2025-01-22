@@ -31,7 +31,7 @@
 &lt;h1 id=&quot;other-things&quot; tabindex=&quot;-1&quot;&gt;Other things &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-16/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;A colleague flagged an error in a postcode lookup table we&#39;d provided. We traced the error back to a separate dataset we host on ArcGIS Online that had mixed up the area codes for North West and North East. We fixed the error and regenerated the lookup table.&lt;/li&gt;
-&lt;li&gt;We had a call with a colleague from Netherlands Red Cross on information management support to international partners.&lt;/li&gt;
+&lt;li&gt;We had a meeting with a colleague from Netherlands Red Cross on information management support to international partners.&lt;/li&gt;
 &lt;li&gt;We started work on a Surge Information Management work plan.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
@@ -45,7 +45,7 @@
 		<content type="html">&lt;h2 id=&quot;geocoding-property-data-with-powerquery&quot; tabindex=&quot;-1&quot;&gt;Geocoding property data with PowerQuery &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-09/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;We receive monthly data updates from the BRC property team and process this to make it available on ArcGIS Online, where it&#39;s used in analyses by our GIS users. Up until now, we&#39;ve updated it using an Excel doc with several sheets linked by XLOOKUPS, which required doing manual looking up of new addresses and pasting the coordinates into one of the sheets to feed a table in another sheet.&lt;/p&gt;
 &lt;p&gt;We&#39;ve now replaced this with a process based on PowerQuery in Excel. We broke the task down into steps and mapped out how to transform the input data so that it matches what we publish on AGOL. Some of the process needed a bit of trial and error, and we used ChatGPT for some troubleshooting.&lt;/p&gt;
-&lt;p&gt;The process is now better documented and easier to run when new data is shared with us. We&#39;re now exploring doing the geociding directly in PowerQuery and removing the need for an intermediate lookup table.&lt;/p&gt;
+&lt;p&gt;The process is now better documented and easier to run when new data is shared with us. We&#39;re now exploring doing the geocoding directly in PowerQuery and removing the need for an intermediate lookup table.&lt;/p&gt;
 &lt;h2 id=&quot;sharing-our-work-internally&quot; tabindex=&quot;-1&quot;&gt;Sharing our work internally &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-09/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;We did a presentation to the International team on how maps and spatial data can be useful in their work.&lt;/li&gt;
@@ -63,7 +63,7 @@
 &lt;li&gt;We&#39;ve had some good overlap with colleagues working on geospatial analysis for our health services. They are using network analysis to understand access to health facilities, so that BRC teams can better plan services&lt;/li&gt;
 &lt;li&gt;We updated some of our internal boundary datasets to reflect reorganisation of some teams&lt;/li&gt;
 &lt;li&gt;We shared updates on a piece of analysis for our Crisis Response and Community Resilience teams to get feedback. There were some requests for additional datasets to help them understand the geography of where different teams currently provide services.&lt;/li&gt;
-&lt;li&gt;We also had good discussions with colleagues on other data teams to discuss how to manage overlapping requests for analysis. We&#39;ll combine our efforts to take advantage of the work each team has alraedy done.&lt;/li&gt;
+&lt;li&gt;We also had good discussions with colleagues on other data teams to discuss how to manage overlapping requests for analysis. We&#39;ll combine our efforts to take advantage of the work each team has already done.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
 	</entry>

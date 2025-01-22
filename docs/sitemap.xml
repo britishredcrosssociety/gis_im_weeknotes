@@ -12,26 +12,6 @@
 	</url>
 	
 	<url>
-		<loc>https://britishredcrosssociety.github.io/gis_im_weeknotes/</loc>
-		<lastmod>2024-09-30</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://britishredcrosssociety.github.io/gis_im_weeknotes/tags/</loc>
-		<lastmod>2024-09-30</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/</loc>
-		<lastmod>2024-09-30</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://britishredcrosssociety.github.io/gis_im_weeknotes/about/</loc>
-		<lastmod>2024-09-30</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2024-10-03/</loc>
 		<lastmod>2024-10-03</lastmod>
 	</url>
@@ -89,5 +69,25 @@
 	<url>
 		<loc>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-16/</loc>
 		<lastmod>2025-01-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://britishredcrosssociety.github.io/gis_im_weeknotes/about/</loc>
+		<lastmod>2025-01-22</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/</loc>
+		<lastmod>2025-01-22</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://britishredcrosssociety.github.io/gis_im_weeknotes/</loc>
+		<lastmod>2025-01-22</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://britishredcrosssociety.github.io/gis_im_weeknotes/tags/</loc>
+		<lastmod>2025-01-22</lastmod>
 	</url>
 </urlset>

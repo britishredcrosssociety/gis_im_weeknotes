@@ -4,12 +4,29 @@
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/feed/feed.xml" rel="self"/>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/gis_im_weeknotes/"/>
-	<updated>2025-01-16T00:00:00Z</updated>
+	<updated>2025-01-23T00:00:00Z</updated>
 	<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/</id>
 	<author>
 		<name>BRC GIS &amp; IM</name>
 		<email>maps@redcross.org.uk</email>
 	</author>
+	
+	<entry>
+		<title>GeoHub, Safe and Dignified Burials, EO Machine Learning</title>
+		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-23/"/>
+		<updated>2025-01-23T00:00:00Z</updated>
+		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-23/</id>
+		<content type="html">&lt;h2 id=&quot;planning-geohub-development&quot; tabindex=&quot;-1&quot;&gt;Planning GeoHub development &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-23/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We had a team planning session looking at how we&#39;d like to develop the use of our GeoHub, the part of ArcGIS Online where we can allow users to easily browse data and highlight specific maps or datasets. Lots of potential ideas about how we could use it more effectively to support users in making the most of the data we have available.&lt;/p&gt;
+&lt;h2 id=&quot;safe-and-dignified-burials&quot; tabindex=&quot;-1&quot;&gt;Safe and Dignified Burials &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-23/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We had a meeting with colleagues at the Canadian Red Cross looking at the plan for revising the information management component of the &lt;a href=&quot;https://www.ifrc.org/document/safe-and-dignified-burial-implementation-guide-field-managers&quot;&gt;Safe and Dignified Burial Toolkit&lt;/a&gt; this year.&lt;/p&gt;
+&lt;h2 id=&quot;planning-humanitarian-information-analysis-course-training&quot; tabindex=&quot;-1&quot;&gt;Planning Humanitarian Information Analysis Course training &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-23/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We continued to plan the HIAC course - this week we worked on a session on &amp;quot;Analysing Analysis&amp;quot; (which goes into what analysis is, and why should we use it).&lt;/p&gt;
+&lt;h2 id=&quot;training-on-machine-learning-with-earth-observation-data&quot; tabindex=&quot;-1&quot;&gt;Training on machine learning with earth observation data &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-01-23/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;One of the team attended a training on machine learning for earth observation using Python,
+run by &lt;a href=&quot;https://www.spacesouthcentral.com/&quot;&gt;Space South Central&lt;/a&gt; and the &lt;a href=&quot;https://www.port.ac.uk/news-events-and-blogs/blogs/space-cosmology-and-the-universe/securing-the-future-of-space-the-critical-role-of-data-and-software-in-the-uk-space-sector&quot;&gt;University of Portsmouth&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Start/Stop/Continue, Python sessions, user research</title>

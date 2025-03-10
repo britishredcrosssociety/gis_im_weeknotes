@@ -4,12 +4,41 @@
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/feed/feed.xml" rel="self"/>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/gis_im_weeknotes/"/>
-	<updated>2025-01-23T00:00:00Z</updated>
+	<updated>2025-02-13T00:00:00Z</updated>
 	<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/</id>
 	<author>
 		<name>BRC GIS &amp; IM</name>
 		<email>maps@redcross.org.uk</email>
 	</author>
+	
+	<entry>
+		<title>Storm response, Nigeria learning &amp; mapping, WebTools</title>
+		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-02-13/"/>
+		<updated>2025-02-13T00:00:00Z</updated>
+		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-02-13/</id>
+		<content type="html">&lt;p&gt;Since we&#39;ve missed a few weeks, this is three weeks&#39; updates rolled into one.&lt;/p&gt;
+&lt;h2 id=&quot;prototyping-storm-response-products&quot; tabindex=&quot;-1&quot;&gt;Prototyping storm response products &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-02-13/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We got good feedback on a map we made for Storm Eowyn showing severe weather warnings overlaid with Local Resilience Partnership areas for Scotland. We&#39;re now exploring making this a standard product for named storms.&lt;/p&gt;
+&lt;p&gt;Based on discussions with response teams, we&#39;re also looking into a tool for optimised vehicle routing around addresses for welfare checks so that households with higher needs are prioritised in the routing algorithm. ArcGIS has a &lt;a href=&quot;https://pro.arcgis.com/en/pro-app/latest/tool-reference/ready-to-use/itemdesc-solvevehicleroutingproblem.htm&quot;&gt;Vehicle Routing Problem&lt;/a&gt; tool for weighting the routing, but only accepts &amp;quot;Revenue&amp;quot; as a weight, so we are adapting this to our needs.&lt;/p&gt;
+&lt;h2 id=&quot;preparing-humanitarian-information-analysis-training-materials&quot; tabindex=&quot;-1&quot;&gt;Preparing Humanitarian Information Analysis training materials &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-02-13/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We&#39;ve continued to create and edit slides and facilitator notes for the upcoming HIAC course in Abuja, as well as providing administrative support to help attendees get visas and arrange travel.&lt;/p&gt;
+&lt;h2 id=&quot;nigeria-peer-learning-event&quot; tabindex=&quot;-1&quot;&gt;Nigeria peer learning event &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-02-13/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;On 8 February we joined &lt;a href=&quot;https://www.youthmappers.org/&quot;&gt;YouthMappers&lt;/a&gt; and &lt;a href=&quot;https://www.redcrossnigeria.org/&quot;&gt;Nigerian Red Cross Society&lt;/a&gt; for a peer learning even focused on mapping for healthcare electrification in Nigeria. NRCS discussed how they used information management and GIS tools in emergencies, disaster management and climate programmes.&lt;/p&gt;
+&lt;h2 id=&quot;nigeria-evca-mapping-updates&quot; tabindex=&quot;-1&quot;&gt;Nigeria EVCA mapping updates &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-02-13/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We&#39;ve recevied new data from a recent Enhanced Vulnerability and Capability Assessment in Nigeria and have started adding it to existing data on ArcGIS Online, using the Append Tool from ArcGIS Pro.&lt;/p&gt;
+&lt;h2 id=&quot;arcgis-webtools&quot; tabindex=&quot;-1&quot;&gt;ArcGIS Webtools &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-02-13/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We made a proof of concept WebTool: a Python script that can be triggered from an ArcGIS Experience webapp. This could allow us to create custom tools for users that go beyond what is offered out of the box by ArcGIS. For the demo, we implemented the &lt;a href=&quot;https://developers.arcgis.com/python/latest/api-reference/arcgis.network.toc.html#arcgis.network.ODCostMatrixLayer.solve_od_cost_matrix&quot;&gt;ODCostMatrix tool&lt;/a&gt; to take a custom input and return the nearest three vehicles from a separate dataset.&lt;/p&gt;
+&lt;p&gt;We discovered that this can be done on the most basic level of hosted notebook (i.e. without using ArcPy or Advanced runtimes, which use credits). However, the first time someone uses the tool in the webapp, it takes a couple of minutes to return a result. Subsequent uses are quicker (around 30 seconds) but could still feel slow to someone needing a quick response.&lt;/p&gt;
+&lt;h2 id=&quot;location-analysis&quot; tabindex=&quot;-1&quot;&gt;Location analysis &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-02-13/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We made progress on the stratetgic location analysis we&#39;re contributing to:
+- We joined discussions around how different teams at BRC are working on community resilience
+- We had more discussions with colleagues on how best to align the data work we&#39;re doing with what others are already doing/planning
+- We shared an analysis plan with stakeholders for input
+- We made new feature layers on ArcGIS Online based on feedback on early prototypes of what people felt was missing&lt;/p&gt;
+&lt;h2 id=&quot;other-things&quot; tabindex=&quot;-1&quot;&gt;Other things &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-02-13/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We attended a &lt;a href=&quot;https://www.youtube.com/watch?v=BIRIUp-utM4&quot;&gt;webinar&lt;/a&gt; from Open Referral UK about the &lt;a href=&quot;https://openreferraluk.org/about-standard#section-2-heading&quot;&gt;Open Referral Standard&lt;/a&gt;. As BRC services often have a signposting element, we thought this could come in useful in the future as we think about the best way to store data on partner organisations.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>GeoHub, Safe and Dignified Burials, EO Machine Learning</title>

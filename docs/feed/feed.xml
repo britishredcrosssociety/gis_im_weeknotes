@@ -4,12 +4,51 @@
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/feed/feed.xml" rel="self"/>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/gis_im_weeknotes/"/>
-	<updated>2025-02-13T00:00:00Z</updated>
+	<updated>2025-02-27T00:00:00Z</updated>
 	<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/</id>
 	<author>
 		<name>BRC GIS &amp; IM</name>
 		<email>maps@redcross.org.uk</email>
 	</author>
+	
+	<entry>
+		<title>NS IM partnerships, power cuts, AGOL view layers and surge SOPs</title>
+		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-02-27/"/>
+		<updated>2025-02-27T00:00:00Z</updated>
+		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-02-27/</id>
+		<content type="html">&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We put together a project brief to work with one of our NS partners on information management and GIS for disaster preparedness and response.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We also finalised project briefs with another partner NS on incorporating IM and GIS in community resilience and strategic decision-making, with a focus on community mapping and risk analysis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We collected data to feed into analysis of social vulnerability to power cuts in the devolved nations, based on internal analysis done by colleagues for England and &lt;a href=&quot;https://www.nationalgrid.co.uk/customers-and-community/priority-services/social-indicator-mapping&quot;&gt;research by National Grid&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We explored creating joined view layers in ArcGIS Online between UK census boundaries and British Red Cross data on Loneliness. Whilst the primary aim of this was visualising the loneliness data on an internal mapping tool, we were using it as an opportunity to test out joined view layers to see if we could reduce duplication (by joining many tabular datasets to one boundary layer). The only issue we had was due to differences in LSOA codes between the loneliness data and boundary data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We had a chat among ourselves about options for improving metadata in ArcGIS online. Some of the things we touched on were&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enabling the metadata tool for AGOL items, to allow adding of metadata that fits the &lt;a href=&quot;https://www.gov.uk/government/publications/making-your-geospatial-data-easy-to-find-metadata-best-practice-guide-for-data-publishers/making-your-data-easy-to-find-metadata-best-practice-guide-for-data-publishers#contents&quot;&gt;GEMINI&lt;/a&gt;/&lt;a href=&quot;https://defradigital.blog.gov.uk/2015/02/25/inspired/&quot;&gt;INSPIRE&lt;/a&gt; standards&lt;/li&gt;
+&lt;li&gt;Discussing how we can include key metadata in the item description so it&#39;s searchable in the AGOL catalogue&lt;/li&gt;
+&lt;li&gt;Making an onboarding document for AGOL users creating new content to explain what metadata they should use, how to add it, and why its important&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We discovered that our ArcGIS plugin in Sharepoint no longer works, so we&#39;ll need to look into how to reenable it&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We built a map showing where BRC&#39;s &lt;a href=&quot;https://www.redcross.org.uk/get-help/find-missing-family&quot;&gt;Restoring Family Links&lt;/a&gt; team has helped people from.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We contributed to new standard operating procedures for surge deployments&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Storm response, Nigeria learning &amp; mapping, WebTools</title>

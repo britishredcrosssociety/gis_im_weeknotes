@@ -4,12 +4,45 @@
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/feed/feed.xml" rel="self"/>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/gis_im_weeknotes/"/>
-	<updated>2025-02-27T00:00:00Z</updated>
+	<updated>2025-03-06T00:00:00Z</updated>
 	<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/</id>
 	<author>
 		<name>BRC GIS &amp; IM</name>
 		<email>maps@redcross.org.uk</email>
 	</author>
+	
+	<entry>
+		<title>Metadata, ports, overseas territories</title>
+		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-03-06/"/>
+		<updated>2025-03-06T00:00:00Z</updated>
+		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-03-06/</id>
+		<content type="html">&lt;ul&gt;
+&lt;li&gt;We had a team meetup in the London office, which was a good opportunity to catch up on what we&#39;re all working on and various BRC internal organisation changes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;metadata-in-arcgis-online&quot; tabindex=&quot;-1&quot;&gt;Metadata in ArcGIS Online &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-03-06/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We played around with the metadata tools in ArcGIS Online. While they allow adding metadata in a way that complies with the INSPIRE standard, the fields aren&#39;t searchable, making it of limited use for us. I does seem like they plan to make extra metadata fields searchable in the future.
+&lt;ul&gt;
+&lt;li&gt;As a workaround, we discussed including key metadata in the item&#39;s long description for visibility, although this may present other issues&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;uk-ports-and-airports-data&quot; tabindex=&quot;-1&quot;&gt;UK ports and airports data &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-03-06/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A colleague asked about the most appropriate datasets to use for UK airports and ports. We looked into it and recommended:
+&lt;ul&gt;
+&lt;li&gt;Ordnance Survey&#39;s &lt;a href=&quot;https://www.ordnancesurvey.co.uk/products/os-open-map-local&quot;&gt;OpenMap Local&lt;/a&gt; dataset filtered to the &#39;functional sites&#39; category&lt;/li&gt;
+&lt;li&gt;ESRI&#39;s &lt;a href=&quot;https://hub.arcgis.com/datasets/e90996158f0a464189098881379597a6_0/explore&quot;&gt;World Airports&lt;/a&gt; layer (based on &lt;a href=&quot;https://ourairports.com/&quot;&gt;OurAirports&lt;/a&gt;&#39; crowdsourcing)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.openstreetmap.org/&quot;&gt;OpenStreetMap&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;overseas-territories-on-go&quot; tabindex=&quot;-1&quot;&gt;Overseas territories on GO &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-03-06/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We facilitated a discussion between BRC and the IFRC&#39;s GO platform team about how best to enable reporting for &lt;a href=&quot;https://lordslibrary.parliament.uk/uks-relationship-with-its-overseas-territories/&quot;&gt;British Overseas Territories&lt;/a&gt;, which can&#39;t currently report separately from the UK on GO. The GO team provided some options for how reporting could work for overseas territories, and we shared these with BRC&#39;s Overseas Branches team to get their views.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>NS IM partnerships, power cuts, AGOL view layers and surge SOPs</title>

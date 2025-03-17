@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Upcoming trainings, Azure Maps API, GIS in Eswatini, and Nigerian RC event with YouthMappers</title>
+		<title>Metadata, ports, overseas territories</title>
 		<meta name="description" content="Weeknotes from BRC GIS &amp; IM team">
 		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.xml" type="application/atom+xml" title="BRC GIS &amp; IM">
 		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.json" type="application/json" title="BRC GIS &amp; IM">
@@ -466,36 +466,45 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			
-<h1>Upcoming trainings, Azure Maps API, GIS in Eswatini, and Nigerian RC event with YouthMappers</h1>
+<h1>Metadata, ports, overseas territories</h1>
 
 <ul class="post-metadata">
-	<li><time datetime="2024-10-24">24 October 2024</time></li>
+	<li><time datetime="2025-03-06">06 March 2025</time></li>
 </ul>
 
-<h2 id="trainings" tabindex="-1">Trainings <a class="header-anchor" href="#trainings">#</a></h2>
-<p>We have a couple of trainings before the end of the year that we are supporting.</p>
-<h3 id="sims-coordinator-training" tabindex="-1">SIMS Coordinator Training <a class="header-anchor" href="#sims-coordinator-training">#</a></h3>
-<p><a href="https://rcrcsims.org/">Surge Information Management Support (SIMS)</a> is a global network of Information Management specialists who support IFRC emergency response operations by providing a variety of services and products. Key areas of technical support include geospatial analysis, web-based and static data visualization, mobile data collection, scenario planning, and more. SIMS remote coordinators work directly with teams in-country to translate operational needs into discrete tasks, which are then assigned to specialists with the skills and experience to complete them.
-This SIMS Remote Coordinator Training is a remote, scenario-based training where participants work through the phases of remote coordination and associated information products.</p>
-<p>We are supporting by planning this training and being a facilitator.</p>
-<h3 id="gis-training-mena-region" tabindex="-1">GIS Training (MENA Region) <a class="header-anchor" href="#gis-training-mena-region">#</a></h3>
-<p>This remote training equips participants to use GIS at basic and intermediate levels; to enhance the skills of participants in spatial data analysis and visualization; and to enable participants to apply GIS in their disaster management and response activities.</p>
-<p>This training is hosted for MENA participants and aims to build the capacity of Red Cross and Red Crescent National Societies in the region.</p>
-<p>This training was developed as GIS knowledge applied to humanitarian programmes or emergencies is limited within RCRC, which are linked to the surge competency framework.</p>
-<h2 id="azure-maps-api" tabindex="-1">Azure Maps API <a class="header-anchor" href="#azure-maps-api">#</a></h2>
-<p>We’ve been testing the feasibility of enabling frontline operations teams to geocode their own data and map it automatically. These teams handle address data daily in their work and currently do not have a way to map this data themselves consistently/automatically without manually using multiple tools. We have tested Bing Maps API and ArcGIS Geocoding service to do this in Power Automate. We are looking to test in Azure for comparative purposes.</p>
-<h2 id="eswatini-longer-term-gis-plans" tabindex="-1">Eswatini longer term GIS plans <a class="header-anchor" href="#eswatini-longer-term-gis-plans">#</a></h2>
-<p>British Red Cross support the Baphalali Eswatini Red Cross Society. The National Society have expressed interest in enhancing their GIS and Information Management capacity in the longer term. We are putting together a document to start a conversation about how this could work, by outlining several scenarios, from one-off support, integrating within a programme, or building the data readiness of the National Society. This document should also be reusable for other countries.</p>
-<h2 id="nigeria-peer-learning-event" tabindex="-1">Nigeria Peer Learning Event <a class="header-anchor" href="#nigeria-peer-learning-event">#</a></h2>
-<p>As part of the Nigerian Red Cross supported Disaster Management Programme, there is opportunity for a Peer Learning Event. Nigerian Red Cross are currently planning this with YouthMappers. The focus of this will be around the use of Information Management and GIS for developments and disaster management.</p>
+<ul>
+<li>We had a team meetup in the London office, which was a good opportunity to catch up on what we're all working on and various BRC internal organisation changes.</li>
+</ul>
+<h2 id="metadata-in-arcgis-online" tabindex="-1">Metadata in ArcGIS Online <a class="header-anchor" href="#metadata-in-arcgis-online">#</a></h2>
+<ul>
+<li>We played around with the metadata tools in ArcGIS Online. While they allow adding metadata in a way that complies with the INSPIRE standard, the fields aren't searchable, making it of limited use for us. I does seem like they plan to make extra metadata fields searchable in the future.
+<ul>
+<li>As a workaround, we discussed including key metadata in the item's long description for visibility, although this may present other issues</li>
+</ul>
+</li>
+</ul>
+<h2 id="uk-ports-and-airports-data" tabindex="-1">UK ports and airports data <a class="header-anchor" href="#uk-ports-and-airports-data">#</a></h2>
+<ul>
+<li>A colleague asked about the most appropriate datasets to use for UK airports and ports. We looked into it and recommended:
+<ul>
+<li>Ordnance Survey's <a href="https://www.ordnancesurvey.co.uk/products/os-open-map-local">OpenMap Local</a> dataset filtered to the 'functional sites' category</li>
+<li>ESRI's <a href="https://hub.arcgis.com/datasets/e90996158f0a464189098881379597a6_0/explore">World Airports</a> layer (based on <a href="https://ourairports.com/">OurAirports</a>' crowdsourcing)</li>
+<li><a href="https://www.openstreetmap.org/">OpenStreetMap</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="overseas-territories-on-go" tabindex="-1">Overseas territories on GO <a class="header-anchor" href="#overseas-territories-on-go">#</a></h2>
+<ul>
+<li>We facilitated a discussion between BRC and the IFRC's GO platform team about how best to enable reporting for <a href="https://lordslibrary.parliament.uk/uks-relationship-with-its-overseas-territories/">British Overseas Territories</a>, which can't currently report separately from the UK on GO. The GO team provided some options for how reporting could work for overseas territories, and we shared these with BRC's Overseas Branches team to get their views.</li>
+</ul>
 
-<ul class="links-nextprev"><li>Previous: <a href="/gis_im_weeknotes/blog/2024-10-17/">Generalisation, geocoding, web tools, team day</a></li><li>Next: <a href="/gis_im_weeknotes/blog/2024-10-31/">Geographic lookups, API access to security information, ArcGIS Hub Premium and Drones</a></li>
+<ul class="links-nextprev"><li>Previous: <a href="/gis_im_weeknotes/blog/2025-02-27/">NS IM partnerships, power cuts, AGOL view layers and surge SOPs</a></li>
 </ul>
 
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/gis_im_weeknotes/blog/2024-10-24/` was built on 2025-03-17T16:11:03.829Z -->
+		<!-- This page `/gis_im_weeknotes/blog/2025-03-06/` was built on 2025-03-17T16:11:03.831Z -->
 	</body>
 </html>

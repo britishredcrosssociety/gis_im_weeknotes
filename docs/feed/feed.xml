@@ -4,12 +4,47 @@
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/feed/feed.xml" rel="self"/>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/gis_im_weeknotes/"/>
-	<updated>2025-03-06T00:00:00Z</updated>
+	<updated>2025-03-20T00:00:00Z</updated>
 	<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/</id>
 	<author>
 		<name>BRC GIS &amp; IM</name>
 		<email>maps@redcross.org.uk</email>
 	</author>
+	
+	<entry>
+		<title>Counting buildings, HIAC goes live, deployment SOPs and geocoding in PowerQuery</title>
+		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-03-20/"/>
+		<updated>2025-03-20T00:00:00Z</updated>
+		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-03-20/</id>
+		<content type="html">&lt;h3 id=&quot;building-counter-tool&quot; tabindex=&quot;-1&quot;&gt;Building counter tool &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-03-20/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;We created a tool in ArcGIS Online to count buildings within an area of interest. The tool queries OSM data and extends previous work done for the DEEPER project in Nigeria.
+The data source is &lt;a href=&quot;https://livingatlas.arcgis.com/en/browse/?q=openstreetmap%20buildings%20for%20#d=2&amp;amp;q=openstreetmap+buildings+for+&quot;&gt;OSM Buildings layers&lt;/a&gt; from the ESRI Living Atlas.
+The tool was built using the ArcGIS Online Experience Builder, and is open for anyone to use - users can draw a polygon on the map and the app uses the Near Me widget to count the number of buildings inside it.&lt;/p&gt;
+&lt;h3 id=&quot;volunteer-data&quot; tabindex=&quot;-1&quot;&gt;Volunteer data &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-03-20/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;We&#39;ve been working with a colleague in the volunteer data team to set up a pipeline so that we can make some form of volunteer data available through ArcGIS Online.
+For the first stage, we&#39;ll pull through minimal data, aggregated to LSOA level. Over time, we&#39;ll look at how we can show where volunteers are that meet certain criteria, for example they&#39;ve completed certain trainings or are listed as deployable.&lt;/p&gt;
+&lt;h3 id=&quot;deployment-standard-operating-procedures-and-simulation&quot; tabindex=&quot;-1&quot;&gt;Deployment standard operating procedures and simulation &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-03-20/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;We finalised the deployments standard operating procedures we&#39;ve been working on with colleagues in the BRC&#39;s Emergencies and Registers teams. This was followed up by a simulation
+to test how the process would work in practice. We received lots of feedback, which will be incorporated back into the SOPs.&lt;/p&gt;
+&lt;h3 id=&quot;online-events&quot; tabindex=&quot;-1&quot;&gt;Online events &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-03-20/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;We attended some events online:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ESRI webinar on &amp;quot;Geo Enablement&amp;quot;&lt;/li&gt;
+&lt;li&gt;ESRI UK&#39;s not-for-profit community of practice&lt;/li&gt;
+&lt;li&gt;Information Management Working Group session at Humanitarian Networks and Partnerships Week&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;other-things-we-worked-on&quot; tabindex=&quot;-1&quot;&gt;Other things we worked on &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-03-20/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;We worked with Canadian Red Cross to prepare for an OpenStreetMap mapathon, which will take place mid-March with one of BRC&#39;s corporate partners.&lt;/li&gt;
+&lt;li&gt;We made final preparations for the Humanitarian Information Analysis Course in Abuja - including finalising content and facilitating travel plans for BRC staff.
+Some of the team have now travelled to Abuja to participate in the training.&lt;/li&gt;
+&lt;li&gt;We wrote some documentation on our method of geocoding addresses of BRC properties using PowerQuery (the previous method relied on lots of manual steps).&lt;/li&gt;
+&lt;li&gt;We did some analysis on engagement with the Information Management Register community of practice sessions.
+There were eight sessions in 2024 for members to learn, ask questions and get updates on the register.&lt;/li&gt;
+&lt;li&gt;We ran the latest meeting of the BRC Python User Group. This session was a demo of AI-assisted coding from BRC&#39;s in-house AI expert.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Metadata, ports, overseas territories</title>

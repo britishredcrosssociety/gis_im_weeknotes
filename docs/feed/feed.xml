@@ -17,7 +17,7 @@
 		<updated>2025-03-20T00:00:00Z</updated>
 		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-03-20/</id>
 		<content type="html">&lt;h3 id=&quot;building-counter-tool&quot; tabindex=&quot;-1&quot;&gt;Building counter tool &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-03-20/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;We created a tool in ArcGIS Online to count buildings within an area of interest. The tool queries OSM data and extends previous work done for the DEEPER project in Nigeria.
+&lt;p&gt;We &lt;a href=&quot;https://experience.arcgis.com/experience/6f8e9339543f44cd99b9f0c298058e33&quot;&gt;created a tool&lt;/a&gt; in ArcGIS Online to count buildings within an area of interest. The tool queries OSM data and extends previous work done for the DEEPER project in Nigeria.
 The data source is &lt;a href=&quot;https://livingatlas.arcgis.com/en/browse/?q=openstreetmap%20buildings%20for%20#d=2&amp;amp;q=openstreetmap+buildings+for+&quot;&gt;OSM Buildings layers&lt;/a&gt; from the ESRI Living Atlas.
 The tool was built using the ArcGIS Online Experience Builder, and is open for anyone to use - users can draw a polygon on the map and the app uses the Near Me widget to count the number of buildings inside it.&lt;/p&gt;
 &lt;h3 id=&quot;volunteer-data&quot; tabindex=&quot;-1&quot;&gt;Volunteer data &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-03-20/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
@@ -29,9 +29,9 @@ to test how the process would work in practice. We received lots of feedback, wh
 &lt;h3 id=&quot;online-events&quot; tabindex=&quot;-1&quot;&gt;Online events &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-03-20/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;We attended some events online:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;ESRI webinar on &amp;quot;Geo Enablement&amp;quot;&lt;/li&gt;
+&lt;li&gt;A webinar on ESRI&#39;s &lt;a href=&quot;https://www.esri.com/en-us/webinars/industry/humanitarian/national-geospatial-enablement-webinar-series/national-disaster-risk-management-geo-enablement-program&quot;&gt;Geospatial Enablement Program&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;ESRI UK&#39;s not-for-profit community of practice&lt;/li&gt;
-&lt;li&gt;Information Management Working Group session at Humanitarian Networks and Partnerships Week&lt;/li&gt;
+&lt;li&gt;Information Management Working Group session at &lt;a href=&quot;https://vosocc.unocha.org/Report.aspx?page=o0t9pExuBwMwml9Wkc49cgxxxequalxxxequal&quot;&gt;Humanitarian Networks and Partnerships Week&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;other-things-we-worked-on&quot; tabindex=&quot;-1&quot;&gt;Other things we worked on &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-03-20/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;

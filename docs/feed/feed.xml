@@ -4,12 +4,66 @@
 	<subtitle>Weeknotes from BRC GIS &amp; IM team</subtitle>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/feed/feed.xml" rel="self"/>
 	<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/gis_im_weeknotes/"/>
-	<updated>2025-03-20T00:00:00Z</updated>
+	<updated>2025-04-10T00:00:00Z</updated>
 	<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/</id>
 	<author>
 		<name>BRC GIS &amp; IM</name>
 		<email>maps@redcross.org.uk</email>
 	</author>
+	
+	<entry>
+		<title>Volunteers, a11y links, HIAC wrap</title>
+		<link href="https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-04-10/"/>
+		<updated>2025-04-10T00:00:00Z</updated>
+		<id>https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-04-10/</id>
+		<content type="html">&lt;h1 id=&quot;volunteer-data&quot; tabindex=&quot;-1&quot;&gt;Volunteer data &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-04-10/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;We got our volunteer data pipeline live, resulting in two published layers: volunteers
+aggregated to LSOA level, and aggregated again by H3 hex at a smaller scale to make comparisons easier.
+Our next step with this dataset will be to see if there is a way to show how many
+volunteers are deployable at short notice.&lt;/p&gt;
+&lt;h1 id=&quot;a11y-support-in-arcgis-online&quot; tabindex=&quot;-1&quot;&gt;A11y support in ArcGIS Online &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-04-10/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;We shared information on &lt;a href=&quot;https://developers.arcgis.com/experience-builder/guide/accessibility/&quot;&gt;accessibility support in ArcGIS Online&lt;/a&gt; to colleagues building some web apps.
+A few more relevant links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.esri.com/content/dam/esrisites/en-us/media/legal/vpats/arcgis-experience-builder-10-25-23-vpat.pdf&quot;&gt;Conformance Report for Experience Builder&lt;/a&gt; (PDF)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://community.esri.com/t5/arcgis-experience-builder-blog/accessibility-best-practices-for-arcgis-experience/ba-p/1300778&quot;&gt;Accessibility tips&lt;/a&gt; written by an Experience Builder product engineer, published on the Community Forum&lt;/li&gt;
+&lt;li&gt;A &lt;a href=&quot;https://www.esri.com/en-us/accessibility/resources&quot;&gt;collection of accessibility resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A &lt;a href=&quot;https://hub.arcgis.com/pages/a11y&quot;&gt;status report for ArcGIS Hub accessibility&lt;/a&gt; - it breaks down the different components of WCAG quite nicely in column 5 &amp;quot;in a nutshell&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;hiac&quot; tabindex=&quot;-1&quot;&gt;HIAC &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-04-10/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;The Humanitarian Information Analysis Course in Abuja was successfully completed,
+with 30 participants trained in secondary data analysis to support humanitarian
+response. One of our team was a facilitor and another attended as a learner
+alongside two IM register members and two other BRC staff.&lt;/p&gt;
+&lt;p&gt;The course covered:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Analysing data to support decision-making during an emergency&lt;/li&gt;
+&lt;li&gt;Identifying bias&lt;/li&gt;
+&lt;li&gt;Determining key information needs&lt;/li&gt;
+&lt;li&gt;Calculating affected populations&lt;/li&gt;
+&lt;li&gt;Analysing data, including methods for descriptive, interpretative and anticipatory analysis&lt;/li&gt;
+&lt;li&gt;Identifying information gaps&lt;/li&gt;
+&lt;li&gt;Assessing the credibility and transparency of analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;other-things&quot; tabindex=&quot;-1&quot;&gt;Other things &lt;a class=&quot;header-anchor&quot; href=&quot;https://britishredcrosssociety.github.io/gis_im_weeknotes/blog/2025-04-10/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;One of the team took an internal training on psycosocial support for people affected by a crisis.
+The course &amp;quot;helps staff to facilitate a trusting relationship with people in
+crisis, promote understanding through the sharing of information and support
+those to cope with and recover from serious or traumatic events.&amp;quot;&lt;/li&gt;
+&lt;li&gt;A bug report we submitted to ESRI has been included in the upcoming improvement sprint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;BUG-000173267 - When using the 3D option within the Atlas template in ArcGIS Instant App, it does not allow the user to change the basemap if the default basemap configured for the app is not 3D capable&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;We helped troubleshoot some issues with the software BRC uses to manage registers and surge deployments&lt;/li&gt;
+&lt;li&gt;We gave some advice to colleagues in another National Society on things to consider
+when choosing a GIS when the NS has limited technical and financial capacity&lt;/li&gt;
+&lt;li&gt;We enjoyed Barry Rowlingson&#39;s &lt;a href=&quot;https://b-rowlingson.gitlab.io/geocrossword/&quot;&gt;GIS-themed cryptic crossword&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Counting buildings, HIAC goes live, deployment SOPs and geocoding in PowerQuery</title>

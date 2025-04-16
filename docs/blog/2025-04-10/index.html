@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Volunteers, a11y links, HIAC wrap</title>
+		<meta name="description" content="Weeknotes from BRC GIS &amp; IM team">
+		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.xml" type="application/atom+xml" title="BRC GIS &amp; IM">
+		<link rel="alternate" href="/gis_im_weeknotes/feed/feed.json" type="application/json" title="BRC GIS &amp; IM">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+	padding-bottom: 20px;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/gis_im_weeknotes/" class="home-link">BRC GIS &amp; IM</a>
+			<nav>
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/gis_im_weeknotes/">Home</a></li>
+					<li class="nav-item"><a href="/gis_im_weeknotes/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/gis_im_weeknotes/about/">About</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			
+<h1>Volunteers, a11y links, HIAC wrap</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2025-04-10">10 April 2025</time></li>
+</ul>
+
+<h1 id="volunteer-data" tabindex="-1">Volunteer data <a class="header-anchor" href="#volunteer-data">#</a></h1>
+<p>We got our volunteer data pipeline live, resulting in two published layers: volunteers
+aggregated to LSOA level, and aggregated again by H3 hex at a smaller scale to make comparisons easier.
+Our next step with this dataset will be to see if there is a way to show how many
+volunteers are deployable at short notice.</p>
+<h1 id="a11y-support-in-arcgis-online" tabindex="-1">A11y support in ArcGIS Online <a class="header-anchor" href="#a11y-support-in-arcgis-online">#</a></h1>
+<p>We shared information on <a href="https://developers.arcgis.com/experience-builder/guide/accessibility/">accessibility support in ArcGIS Online</a> to colleagues building some web apps.
+A few more relevant links:</p>
+<ul>
+<li><a href="https://www.esri.com/content/dam/esrisites/en-us/media/legal/vpats/arcgis-experience-builder-10-25-23-vpat.pdf">Conformance Report for Experience Builder</a> (PDF)</li>
+<li><a href="https://community.esri.com/t5/arcgis-experience-builder-blog/accessibility-best-practices-for-arcgis-experience/ba-p/1300778">Accessibility tips</a> written by an Experience Builder product engineer, published on the Community Forum</li>
+<li>A <a href="https://www.esri.com/en-us/accessibility/resources">collection of accessibility resources</a></li>
+<li>A <a href="https://hub.arcgis.com/pages/a11y">status report for ArcGIS Hub accessibility</a> - it breaks down the different components of WCAG quite nicely in column 5 &quot;in a nutshell&quot;</li>
+</ul>
+<h1 id="hiac" tabindex="-1">HIAC <a class="header-anchor" href="#hiac">#</a></h1>
+<p>The Humanitarian Information Analysis Course in Abuja was successfully completed,
+with 30 participants trained in secondary data analysis to support humanitarian
+response. One of our team was a facilitor and another attended as a learner
+alongside two IM register members and two other BRC staff.</p>
+<p>The course covered:</p>
+<ul>
+<li>Analysing data to support decision-making during an emergency</li>
+<li>Identifying bias</li>
+<li>Determining key information needs</li>
+<li>Calculating affected populations</li>
+<li>Analysing data, including methods for descriptive, interpretative and anticipatory analysis</li>
+<li>Identifying information gaps</li>
+<li>Assessing the credibility and transparency of analysis</li>
+</ul>
+<h1 id="other-things" tabindex="-1">Other things <a class="header-anchor" href="#other-things">#</a></h1>
+<ul>
+<li>One of the team took an internal training on psycosocial support for people affected by a crisis.
+The course &quot;helps staff to facilitate a trusting relationship with people in
+crisis, promote understanding through the sharing of information and support
+those to cope with and recover from serious or traumatic events.&quot;</li>
+<li>A bug report we submitted to ESRI has been included in the upcoming improvement sprint</li>
+</ul>
+<blockquote>
+<p>BUG-000173267 - When using the 3D option within the Atlas template in ArcGIS Instant App, it does not allow the user to change the basemap if the default basemap configured for the app is not 3D capable</p>
+</blockquote>
+<ul>
+<li>We helped troubleshoot some issues with the software BRC uses to manage registers and surge deployments</li>
+<li>We gave some advice to colleagues in another National Society on things to consider
+when choosing a GIS when the NS has limited technical and financial capacity</li>
+<li>We enjoyed Barry Rowlingson's <a href="https://b-rowlingson.gitlab.io/geocrossword/">GIS-themed cryptic crossword</a></li>
+</ul>
+
+<ul class="links-nextprev"><li>Previous: <a href="/gis_im_weeknotes/blog/2025-03-20/">Counting buildings, HIAC goes live, deployment SOPs and geocoding in PowerQuery</a></li>
+</ul>
+
+		</main>
+
+		<footer></footer>
+
+		<!-- This page `/gis_im_weeknotes/blog/2025-04-10/` was built on 2025-04-16T12:02:30.728Z -->
+	</body>
+</html>
